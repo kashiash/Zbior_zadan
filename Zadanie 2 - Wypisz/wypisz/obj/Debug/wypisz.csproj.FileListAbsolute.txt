@@ -1,0 +1,7 @@
+C:\Users\Basia\Desktop\Zadania do powtórzenia\Zadanie 2\wypisz\wypisz\bin\Debug\wypisz.exe.config
+C:\Users\Basia\Desktop\Zadania do powtórzenia\Zadanie 2\wypisz\wypisz\bin\Debug\wypisz.exe
+C:\Users\Basia\Desktop\Zadania do powtórzenia\Zadanie 2\wypisz\wypisz\bin\Debug\wypisz.pdb
+C:\Users\Basia\Desktop\Zadania do powtórzenia\Zadanie 2\wypisz\wypisz\obj\Debug\wypisz.csprojResolveAssemblyReference.cache
+C:\Users\Basia\Desktop\Zadania do powtórzenia\Zadanie 2\wypisz\wypisz\obj\Debug\wypisz.csproj.CoreCompileInputs.cache
+C:\Users\Basia\Desktop\Zadania do powtórzenia\Zadanie 2\wypisz\wypisz\obj\Debug\wypisz.exe
+C:\Users\Basia\Desktop\Zadania do powtórzenia\Zadanie 2\wypisz\wypisz\obj\Debug\wypisz.pdb
