@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
+ * A teraz... alternatywa do nieskonczonej petli while :) czyli nieskoczona petla for :)
+
     Treść zadania:
     Wiesz już jak tworzymy nieskończoną pętlę while. Przypomnę że, wystarczyło albo zapisać warunek który zawsze
     będzie spełniony, bądź po prostu w nawiasie zapisać słowo true. Jak się domyślasz

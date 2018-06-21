@@ -58,7 +58,7 @@ using System.Threading.Tasks;
     zobacz różnicę.... i przeanalizuj co się zdarzyło. 
 
 
-    Zapamiętaj:
+    Zapamiętaj z zadań:
     - co to jest takiego pętla do ... while?
     - jak działa pętla do ... while?
     - jak jest zbudowana pętla do ... while?
