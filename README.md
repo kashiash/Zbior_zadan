@@ -23,9 +23,6 @@ co to takiego tablica, jak ją zbudować i co to takiego obiekty. I o takie zach
 
 Powodzenia w rozwiązywaniu zadań!
 
-<<<<<<< HEAD
-=======
-
 #### Co dzięki temu zbiorowi zadań utrwalisz/ogarniesz: ####
 
            1. Tworzenie funkcji, idea funkcji(metod) w tym metoda void
@@ -38,5 +35,3 @@ Powodzenia w rozwiązywaniu zadań!
            8. Petla zagniezdzona(czyli slawne "petla w petli")
            9. Listy
            10. Rzutowanie
-
->>>>>>> fc349aadd0a992770b9c112dc07d35632bd85c9c
