@@ -27,10 +27,13 @@ using System.Threading.Tasks;
     8. Stworzyć tablicę obiektów. 
     9. Wyświetlić dane tych obiektów i wywołać dla nich metodę zlicz. 
 
-    Zastanów się:
+    Zastanów się i dokonaj researchu ewentualnego - a następnie sobie odpowiedz tutaj albo do notatnika wpisz:
     - jakie mamy sposoby dostępu do zmiennych, metod i jak działają (public, private, internal, protected)
+      (odsyłamy do Zadania 0) :)
     - co to konstruktor domyślny, konstruktor statyczny, konstruktor parametryczny. Czym się wyróżniają?
     - co znaczy "this"? 
+      #pełni rolę takiego wskaźnika - mówi dosłownie, że ta konkretna wartość ma być wzięta, użyteczne
+      przy klasach i metodach w tych klasach jak bierzemy np. jakąś wartośc z main do metody z klasy ;)
     - jak tworzyć obiekty?
     - Co to jest instrukcja warunkowa? Jak wygląda? Jak działa?
     - CO to jest || a co &&. Czy jest różnica między & a && i | a || ? 

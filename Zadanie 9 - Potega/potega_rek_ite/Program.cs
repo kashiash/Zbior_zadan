@@ -20,7 +20,7 @@ using System.Threading.Tasks;
     Program: Potege jakich liczb chcesz policzyć?
     itd....
 
-    Przypomnij sobie:
+    Utrwalisz sobie:
     - Jak liczymy potege iteracyjnie a jak rekurencyjnie?
     - Jak implementujemy potege do programu?
     - Co to jest klasa, metoda?

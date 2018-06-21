@@ -79,7 +79,7 @@ using System.Threading.Tasks;
     Nie myl tych pojęć! :) 
 
 
-    Zatem, zapamiętaj:
+    Zatem, zapamiętaj dla siebie i własnego spokoju:
     - co to takiego instrukcja warunkowa?
     - jak korzystamy z instrukcji warunkowych?
     - co oznacza w instrukcji warunkowej else?

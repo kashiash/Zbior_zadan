@@ -14,7 +14,7 @@ using System.Threading.Tasks;
     przykład wydruku na ekran:
     nazwa_tablicy[obecny_indeks] = Mój indeks jest parzysty
 
-    Przypomnij sobie:
+    Utrwalisz sobie dzięki temu poleceniu m.in:
     - do czego nam indeks w tablicy?
     - jak stworzyć metodę, klasę?
     - jak stworzyć obiekt?

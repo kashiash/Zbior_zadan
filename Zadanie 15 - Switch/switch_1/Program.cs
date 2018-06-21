@@ -60,7 +60,7 @@ using System.Threading.Tasks;
     7. Sprawdź czy działa.
     8. Jeżeli działa tak jak trzeba, sprawdź teraz co się stanie gdy usuniesz breaki z caseów w switchu.
 
-    Przypomnij sobie:
+    Utrwalisz sobie podczas tego zadania:
     - Na czym polega instrukcja switch?
     - Jak tworzymy metodę a jak klasę?
     - Zapamiętaj, że SWITCH nie działa ze STRING, tylko CHAR co najwyżej i LICZBY! 

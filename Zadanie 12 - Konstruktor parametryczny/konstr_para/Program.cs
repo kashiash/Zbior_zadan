@@ -17,9 +17,9 @@ using System.Threading.Tasks;
     5. Stwórz trzy obiekty za pomocą konstruktora parametrycznego.
     6. Wyświetl te obiekty w ustalony przez siebie sposób. Pełna dowolność.
 
-    Przypomnij sobie:
+    Utrwalisz sobie:
     - Jak tworzymy klasę? Co to jest klasa? 
-    - Co to jest konstruktor domyślny? 
+    - Co to jest konstruktor domyślny a co to konstruktor parametryczny? 
     - Typy dostępów do pól i metod. Jakie są? Gdzie mamy do nich dostęp?
 */
 

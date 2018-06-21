@@ -37,7 +37,7 @@ using System.Threading.Tasks;
     6. Wyświetl wynik sumowania. Możesz dorzucić metodę void, która wypisze go, bądź skorzystać z klasycznego
     Console.Writeline... 
 
-    Przypomnij sobie:
+    Utrwalisz sobie:
     - wszystko o tablicach jednowymiarowych
     - co to jest indeks w tablicy
     - jak działa pętla for, jak ją budujemy

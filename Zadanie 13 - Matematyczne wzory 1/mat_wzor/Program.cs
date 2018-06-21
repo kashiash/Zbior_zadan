@@ -18,7 +18,7 @@ using System.Threading.Tasks;
     3. Obwód i pole koła.
     użytkownik podejmuje decyzję wybierając jedną z opcji, a następnie wywołuje się dana funkcja...
     
-    Przypomnij sobie:
+    Utrwalisz sobie podczas opracowywania tego zadania:
     - Co to jest klasa, metoda?
     - Jak wywolać metodę jeśli coś? (instrukcja warunkowa?)
     - Co to jest instrukcja warunkowa, jak jest zbudowana, jak działa?

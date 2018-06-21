@@ -20,8 +20,9 @@ using System.Threading.Tasks;
     pola znowu pyta użytkownika o dane
     do policzenia pola. 
 
-    #podpowiedź: trzeba wykorzystać pętlę, może for bez zwiększenia? (ups, i tak dużo wyjawiłem...)
-
+    #podpowiedź: trzeba wykorzystać pętlę, może for bez zwiększenia? 
+    albo hmmm... pętla while nieskończona? Sposób wiele :) 
+    Wybierz swój albo zaproponowany :)
 */
 
 namespace p_triangle

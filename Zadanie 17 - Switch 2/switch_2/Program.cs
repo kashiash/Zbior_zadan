@@ -58,7 +58,7 @@ using System.Threading.Tasks;
 
     9. Przetestuj czy wszystkie funkcje działają prawidłowo.
 
-    Przypomnij sobie:
+    Utrwalisz sobie:
     - wszystko o instrukcji switch (jak działa, że od string nie możesz pisać switch, co to default, co to case itd...)
     - Co to takiego metoda, klasa, obiekt?
     - Co to takiego break?

@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
+ * Omówienie pętli while znajdziesz tutaj, ale również i w zadaniu 5 Tablice cz1 troszkę napomknąłem o nich :)
+
     Treść zadania:
     Wiemy już na czym polega pętla for. Teraz czas zapoznać się z kolejną pętlą czyli while. Pętla którą
     dziś się zajmiemy ma coś wspólnego z pętlą for! Co? A już mówię. Obie pętle zanim wejdą do bloku

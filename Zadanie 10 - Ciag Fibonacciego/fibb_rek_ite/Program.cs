@@ -20,7 +20,7 @@ using System.Threading.Tasks;
     Program: Który element ciągu chcesz policzyć?
     itd....
 
-    Przypomnij sobie:
+    Utrwalisz sobie:
     - Co to jest ciąg Fibonacciego?
     - Jak liczymy ciąg fibonacciego iteracyjnie a jak rekurencyjnie?  (pseudokod)
     - Co to jest klasa, metoda?

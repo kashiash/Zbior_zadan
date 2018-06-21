@@ -71,7 +71,7 @@ using System.Threading.Tasks;
     while(0) - zwróci fałsz
     jeśli nie wierzysz, to przetestuj :) 
     
-    Zapamiętaj, poćwicz, przypomnij sobie:
+    Zapamiętaj, poćwicz, przypomnij sobie poniższe fakty:
     - Co to takiego i jak tworzyć: klasę, metodę, obiekt, konstruktor?
     - Co to takiego i jak tworzyć: switch 
     - Zapamiętaj, dla jakiego typu danych switch nie działa!

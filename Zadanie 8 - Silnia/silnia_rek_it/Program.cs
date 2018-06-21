@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
+ * pamiętasz - np. 3 silnia to ile 1*2*3 
+
     Treść zadania:
     Napisz w klasie silnia dwie metody, które będą nazywać się: silnia_rekurencyjnie, silnia_iteracyjnie. Program
     ma się zapytać w pierwszej kolejności użytkownika jak woli policzyć silnię czy rekurencyjnie czy iteracyjnie.
@@ -20,7 +22,7 @@ using System.Threading.Tasks;
     Program: Silnię jakiej liczby chcesz policzyć?
     itd....
 
-    Przypomnij sobie:
+    Utrwalisz sobie:
     - Co to jest silnia?
     - Jak liczymy silnię iteracyjnie a jak rekurencyjnie?
     - Jak implementujemy silnie do programu?

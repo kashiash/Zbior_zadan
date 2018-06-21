@@ -21,7 +21,7 @@ using System.Threading.Tasks;
     Zastanów się jak to wyglądało wszystko, od czego zacząć? Uporządkuj sobie wiedze,
     myśl fragmentami to znaczy: zbuduj kod idąc krok po kroku. Kombinuj. 
 
-    Przypomnij sobie:
+    Utrwalisz sobie w ten sposób:
     - Po co nam tablica obiektów?
     - Czemu akurat w pętli musimy wyświetlić obiekty z tablicy?
     - Po co nam "klasa"?
@@ -29,7 +29,10 @@ using System.Threading.Tasks;
     - Jak przypisać do obiektów parametry np. wiek?
     - Co to indeks? Jak działa "indeks" w tablicy? Wyobraź sobie jak indeks chodzi po tablicy.
     - Co to jest tablica jednowymiarowa?
+
+    w razie kłopotów powróć do Tablice cz.1
     */
+
 namespace tablica2
 {
     class Program
