@@ -1,7 +1,0 @@
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 30 - Pętla nieskończona for\infty_for\infty_for\bin\Debug\infty_for.exe.config
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 30 - Pętla nieskończona for\infty_for\infty_for\bin\Debug\infty_for.exe
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 30 - Pętla nieskończona for\infty_for\infty_for\bin\Debug\infty_for.pdb
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 30 - Pętla nieskończona for\infty_for\infty_for\obj\Debug\infty_for.csprojResolveAssemblyReference.cache
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 30 - Pętla nieskończona for\infty_for\infty_for\obj\Debug\infty_for.csproj.CoreCompileInputs.cache
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 30 - Pętla nieskończona for\infty_for\infty_for\obj\Debug\infty_for.exe
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 30 - Pętla nieskończona for\infty_for\infty_for\obj\Debug\infty_for.pdb

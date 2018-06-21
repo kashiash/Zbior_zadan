@@ -1,7 +1,0 @@
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 19 - Iloczyn modyfikowalny\iloczyn_modify\iloczyn_modify\bin\Debug\iloczyn_modify.exe.config
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 19 - Iloczyn modyfikowalny\iloczyn_modify\iloczyn_modify\bin\Debug\iloczyn_modify.exe
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 19 - Iloczyn modyfikowalny\iloczyn_modify\iloczyn_modify\bin\Debug\iloczyn_modify.pdb
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 19 - Iloczyn modyfikowalny\iloczyn_modify\iloczyn_modify\obj\Debug\iloczyn_modify.csprojResolveAssemblyReference.cache
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 19 - Iloczyn modyfikowalny\iloczyn_modify\iloczyn_modify\obj\Debug\iloczyn_modify.csproj.CoreCompileInputs.cache
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 19 - Iloczyn modyfikowalny\iloczyn_modify\iloczyn_modify\obj\Debug\iloczyn_modify.exe
-C:\Users\Basia\Desktop\Zadania C#\Zadanie 19 - Iloczyn modyfikowalny\iloczyn_modify\iloczyn_modify\obj\Debug\iloczyn_modify.pdb
