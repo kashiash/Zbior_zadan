@@ -35,3 +35,8 @@ Powodzenia w rozwiązywaniu zadań!
            8. Petla zagniezdzona(czyli slawne "petla w petli")
            9. Listy
            10. Rzutowanie
+
+		   
+		   
+Aby dostać się do zadania musisz kliknąć dwa razy lewym przyciskiem myszy w miejsce zaznaczone na zdjęciu(po otwarciu projektu z zadania)
+![alt text](https://image.ibb.co/nthMzo/pami.png)
