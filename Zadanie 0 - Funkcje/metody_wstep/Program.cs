@@ -5,7 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- 
+    ##########################################
+    # ostatnia aktualizacja notatki: 21.06.18r
+    ##########################################
+
                UWAGA!
     Zanim zaczniesz, jedna sprawa :)
     Jeśli uważasz, że możesz coś 
@@ -28,7 +31,7 @@ using System.Threading.Tasks;
     Ci się uda pojąć o co chodzi :).
 
     I pamiętaj też, że jak będziesz się
-    uczyć tych kodów to najważniejsze jest
+    uczyć rozumieć kody to najważniejsze jest
     nie to że go napiszesz a że go zrozumiesz!
     To analiza kodu powoduje że utrwalasz
     programowanie i się go uczysz! Tak więc
@@ -42,30 +45,31 @@ using System.Threading.Tasks;
                                 *****************************************
                                      Temat: METODY, FUNKCJE, ZWRACANIE.
                                 *****************************************
+                                             wstęp teoretyczny
+                                *****************************************
                                 
     Zatem, pewnie zastanawiasz się co oznaczają METODY a co FUNKCJE. Pierwsze wyjaśnienie!
-    Te dwa słowa.... to synonimy,
-    zatem FUNKCJA oznacza METODĘ.
-    Metoda, ładniej chyba brzmi :).
+    Te dwa słowa.... to uwaga... synonimy (nie zaskoczyłem?),
+    zatem FUNKCJA oznacza METODĘ. Metoda, ładniej chyba brzmi :)
 
     ?: Co oznacza słowo metoda, funkcja:
     => jest to ciąg instrukcji, który zostaje "aktywowany" w momencie wywołania takiej metody. Może coś
-    zwracać lub nie musi. 
+    zwracać lub nie musi. Możemy coś tej funkcji w dodatku przekazać lub nic. 
 
     ?: to pewnie zastanawisz się, a co oznacza wywołanie funkcji? A no właśnie jej aktywację! Nic 
     prostszego jak się to zrozumie. Mówisz Masło maślane? 
     Poczekaj, idź dalej, zobacz przykłady i jeszcze raz przeczesz definicje. :)
 
-    ?: Po co nam taka metoda?
+    ?: Po co nam taka metoda kolego jak to nic innego jak bloczek instrukcji? 
     A no jest bardzo bardzooo użyteczna ponieważ możemy ją wykorzystać do tego aby wykonała określoną rzecz np. 
     zamieniła liczby w tablicy miejscami, wyzerowała tablicę, obliczyła na podstawie wzoru jakiś wynik itd..
     Dzięki metodzie wszystko jest pięknie czytelne dla Ciebie i dla reszty zespołu programistów. Dzięki
     temu nie zgubisz się w swoim własnym kodzie! Będzie on przejrzysty! 
 
     => Zobacz teraz,
-
     jeśli w main zapiszesz bez żadnych metod kod będzie to tak:
-    
+    (załóżmy, że tak wygląda)
+
     for(...;...;...)
     {
         if(...)
@@ -94,7 +98,7 @@ using System.Threading.Tasks;
     Swoją drogą, widzisz dlaczego wcinanie klamerek jest ważne: 
     Żeby po prostu odnaleźć się, w którym bloku jesteśmy.
     Ale po np. 3 miesiącach zaglądając wyobraź sobie do takiego kodu
-    jak znalazłbyś linijkę, która np. oblicza liczbę? 
+    jak znalazłbyś linijkę, która np. oblicza liczbę gdyby nie wcięcia? 
 
     a gdy zapiszesz metodami:
 
@@ -111,20 +115,33 @@ using System.Threading.Tasks;
     Nie dość, że wiemy od czego jest dany kod(bo np. metode nazwaliśmy wypisz) to jeszcze
     wygląda to dużo przejrzyściej i jeśli przysiadziesz do takiego kodu za np. kilka miesięcy.
     Wtedy na pewno szybciej się połapiesz który blok odpowiada za coś niż wklepując wszystko
-    bez metod. 
+    bez metod. Potwierdzone info :) Przy okazji, pamiętaj o czymś takim jak "region" dzięki czemu
+    możemy upychać kody do takich "paczek" i w razie potrzeby rozwijać je. Z czasem przecież twój
+    kod może ulec takiemu zwiększeniu, że ciężko będzie się pracowało jeśli co chwile będziesz musiał
+    jeździć suwakiem od dołu do góry, prawda? :) 
 
     To skoro wiesz już nieco o metodach, teraz możemy powiedzieć o tym jak wygląda sam proces
     deklarowania metody. Jest on wręcz banalnie prosty. Wystarczy, że podasz 
     w C#, rodzaj dostępu , typ danych , nazwa metody i ewentualnie argumenty, 
 
-    przykłady dla Ciebie do przeanalizowania:
+    przykłady dla Ciebie:
 
     - public double oblicz_cene(double waga, double cena);
 
-    double pomiędzy public a oblicz_cene oznacza, że funkcja musi koniecznie zwrócić wartość
+    => public oznacza dostęp do tej funkcji, w tym przypadku public oznacza, że jest dostępna wszędzie i zawsze
+    => double pomiędzy public a oblicz_cene oznacza, że funkcja musi koniecznie zwrócić wartość
     która ma taki typ danych, jeśli nie zwróci takowej to dostaniemy error. 
+    => oblicz_cene to nazwa funkcji
+    => w nawiasie podano argumenty waga(który jest typu double oraz cena także typu double), argumenty czyli
+    to co chcemy przekazać do funkcji aby wykonać na nich jakieś operacje. 
 
-    teraz Ty przećwicz:
+    teraz Ty przećwicz i spróbuj opisać poniższe funkcje:
+    no i w razie czego wyjaśnijmy sobie kwestię dostępów do funkcji:
+    * protected - funkcja będzie widoczna tylko w obrębie klas, które dziedziczą z klasy która ma funkcję protected
+    * public - dostępna funkcja wszędzie i zawsze
+    * private - dostępna funkcja tylko w obrębie klasy
+    * jest jeszcze rzadko używany internal 
+    - widzimy funkcję tylko w tym namespace(przestrzeni nazw) w którym go zdefiniowaliśmy
 
     - protected int policz_wiek(int rok_urodzenia)
     - public char sprawdz_znak(char wybor)
@@ -133,14 +150,14 @@ using System.Threading.Tasks;
 
     no, okej, udało się? Jeśli tak to przypomnij sobie teraz, co oznacza typ danych float? 
     Tak dla sportu, a jeśli nie pamiętasz to szybciutko poszukaj w necie bo znowu zapomnisz
-    i też może zanotuj? :) 
+    i też może zanotuj? 
 
     => Dobrze, to teraz jeszcze omówmy sobie jeden ciekawy typ jaki może mieć metoda. Nazywa się
     'void', z angielskiego oznacza pustkę, zatem rozumiesz co przez to stwórcy języka C# chcieli
     powiedzieć. Na pewno m.in to, że ta metoda nie przyjmuje żadnych argumentów i nic nie zwraca.
-   
-                                    A więc zapamiętaj!
+    Puste jak cholera :O 
 
+                                    A więc zapamiętaj!
                ***Funkcja typu void nie przyjmuje argumentów ani nic nie zwraca!***
 
     przykłady takich funkcji(metod):
@@ -155,27 +172,30 @@ using System.Threading.Tasks;
     funkcję mleczko() to fragment
 
     mleczko() mówi Ci o dwóch rzeczach!
-    1) jest to funkcja, bo ma nawiasy!
-    2) jest to funkcja typu void, bo nie przyjmuje argumentów! 
+    1) jest to funkcja, bo ma nawiasy!!
+    2) jest to funkcja typu void, bo nie przyjmuje argumentów!!
 
-    więc mamy public void mleczko()...
+    więc mamy o tak:
+    public void mleczko() { 
+            
+    }
 
 
     ...teraz Ty przećwicz, włącz wszystkie zmysły do zrobienia tego zadania, powiedz głośno 
-    co robisz, zobacz, napisz tutaj itd, a więc:
+    co robisz, zobacz, napisz tutaj - utrwalisz sobie ten nawyk, a więc:
 
 
     Cwiczenie: stworz metode oblicz_pi().
     Co mówi nam fragment: oblicz_pi()? 
     
-    1)  wypełnij to miejsce
-    2)  wypełnij to miejsce 
+    1)  <wypełnij to miejsce>
+    2)  <wypełnij to miejsce>
 
     Cwiczenie2: stworz metode zgarnij_kase()
     Co mówi nam fragment: zgarnij_kase()?
 
-    1)  wypełnij to miejsce
-    2)  wypełnij to miejsce
+    1)  <wypełnij to miejsce>
+    2)  <wypełnij to miejsce>
 
 
     no to jak już to przećwiczyłeś, i wiesz co to metoda, co to za szczególna metoda typu void czyli pusta
@@ -186,7 +206,7 @@ using System.Threading.Tasks;
           /double pomiędzy public a oblicz_cene oznacza, że funkcja musi koniecznie zwrócić wartość/
           /która ma taki typ danych, jeśli nie zwróci takowej to dostaniemy error.                 /
 
-    pamiętasz? : )
+    pamiętasz? : )  (taaaaak)
     
     słowo "zwracanie" ma dla nas bardzo ważne znaczenie, ponieważ jeśli Twoja metoda ma typ danych inny
     niż void, np. int, double, char, TO MUSI taką wartość zwrócić, inaczej będzie krzyczał o błędzie!!!
@@ -200,15 +220,16 @@ using System.Threading.Tasks;
     wtedy patrzac na przyklad powyzej, funkcja WywolajMetode zwraca wartosc typu double i wrzuca ja 
     pod zmienna typu double czyli a, rozumiesz? :) Pewnie się zapytasz, a skąd wiem, że funkcja 
     WywolajMetode jest typu double? A no na zdrowy rozum. Do double chcesz przypisać wartość
-    double, no chyba że masz dziwne zamiary :).
+    double, no chyba że masz dziwne zamiary i próbujesz jakichś czarów.
 
     => ale jeśli chcemy ją odrazu wyświetlić to korzystamy z Console.WriteLine i tam wywołujemy metodę, tak? 
-    patrz: Console.WriteLine("Wywoluje metode => " + obiekt.WywolajMetode);
+    patrz, o to mi chodzi: Console.WriteLine("Wywoluje metode => " + obiekt.WywolajMetode);
     
     ?: dlaczego w sposób z WriteLine działa? Ponieważ wypiszemy wartość, którą zwróci metoda "WywolajMetode".
 
     A więc uwaga, jeśli nie skorzystasz z jednego z tych dwóch sposobów, to wynik który zwróci Twoja funkcja
-    ucieknie! No i na dodatek nie pokaże się nam na ekranie. :((
+    ucieknie! No i na dodatek nie pokaże się nam na ekranie. :(( Dbaj o ten nawyk. Jeżeli masz funkcję ze zwracaniem
+    to albo wypisz na ekran albo zapisz wynik do zmiennej!!!
 
     A teraz jeszcze zwróć uwagę, jak zwrócić wartość w metodzie, W PRAKTYCE,
     mamy np.
@@ -228,7 +249,7 @@ using System.Threading.Tasks;
     Zależy tylko i wyłącznie od Ciebie.
     Tylko, uwaga, nie łącz tych sposobów!
     Ja Ci mogę podpowiedźieć tyle, że 
-    zwracanie wyniku odrazu stosjemy
+    zwracanie wyniku odrazu stosujemy
     dla rekurencji nie? To na pewno.
 
     a teraz spróbuj sam i zobacz czy rozumiesz:
@@ -295,13 +316,15 @@ using System.Threading.Tasks;
        jeśli w dalszym ciągu nurtują Cię jakieś pytania, wątpliwości to koniecznie je rozwiej w sposób
        dobrowolny (czy to szukanie odpowiedzi w internecie, czy przetestowanie w kodzie jak działa to co
        chcesz sprawdzić...) i pamiętaj, żeby jeszcze do tego miejsca zajrzeć bądź spreparować sobie 
-       dobrą notatkę i zerkać na nią. Albo jeśli czujesz, że za mało zrobiłaś/zrobiłeś ćwiczeń to wymyśl
+       dobrą mininotatkę i zerkać na nią. Albo jeśli czujesz, że za mało zrobiłaś/zrobiłeś ćwiczeń to wymyśl
        sobie zadanie o metodzie i stwórz ją tutaj. Ogranicza Cię jedynie wyobraźnia! Pamiętaj, że ćwiczenie
        utrwala teorię. Nawet nie zauważysz, że się nauczyłaś/naczyłeś rozpoznawać co dana metoda zwraca, jakiego
        typu jest itd..
 
        Metody(funkcje) są bardzo ważne, więc jeśli nie możesz zrozumieć jak działają, to nie uda Ci się
        pojąć dalszych kodów. Zatem postaraj się to zrozumieć w pierwszej kolejności :).
+       
+       Zaakceptuj dobroć jaką oferuje metoda i nie bój się jej wykorzystywać - ratuje programistę :)
 
       =====> A więc, zapamiętaj z tego tematu: <======
        - jak wywołujemy metodę która coś zwraca w bloku głównym?
@@ -315,7 +338,7 @@ using System.Threading.Tasks;
        - co to jest return i w jaki sposób możemy zwracać? (przez zmienną lub odrazu)
        - jak wywołujemy metodę void w bloku głównym?
 
-        Odpowiedzi poszukaj w notatce wyżej, wszystkie znajdziesz, a jak znajdziesz to lepiej zapamiętasz :).
+        Odpowiedzi poszukaj w notatce wyżej, przy okazji sobie powtórzysz materiał :D
 */
 namespace metody_wstep
 {
@@ -323,6 +346,7 @@ namespace metody_wstep
     {
         static void Main(string[] args)
         {
+            // odpowiedzi
         }
     }
 }

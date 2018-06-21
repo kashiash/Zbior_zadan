@@ -10,3 +10,4 @@ użyć. Mianowicie: Jeśli np. usłyszymy zadanie aby stworzyć tablicę obiekt�
 co to takiego tablica, jak ją zbudować i co to takiego obiekty. I o takie zachowania chodzi.
 
 Powodzenia w rozwiązywaniu zadań!
+

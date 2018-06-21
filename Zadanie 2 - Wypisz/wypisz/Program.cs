@@ -15,15 +15,14 @@ using System.Threading.Tasks;
        Idzikowski
 
        to wypisze sie:
-       Twoje imie to Pawel
+       Twoje imie to: Pawel
        Nazwisko: Idzikowski
 
-       Przypomnij sobie:
+       To zadanie pozwoli ci przypomnieć sobie:
        - jak tworzyć metodę, 
        - jak wypisać tekst, 
        - jak pobrać tekst, 
        - jak tworzyć klasę, 
-
     */
 
 namespace wypisz

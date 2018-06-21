@@ -11,19 +11,18 @@ using System.Threading.Tasks;
     Jesli uzytkownik napisze tak to napisze na ekran "Jeeej zgadlem!" jesli uzytkownik napisze
     nie to na ekranie pokaze sie "A niech to...".
 
-    Dodatkowe zadanie: Stwórz konstruktor domyślny. To znaczy: zadeklaruj go jawnie.
+    Dodatkowe zadanie: Stwórz konstruktor domyślny. Zadeklaruj go jawnie.
 
     podpowiedz:
     Aby pobrac dzisiejsza date skorzystaj z funkcji DateTime.Now, ktora zwraca obecny rok
     
-    Przypomnij sobie:
+    Do tego zadania utrwalisz sobie:
     - jak przypisac wynik liczenia do zmiennej odrazu!
     - jak stworzyć metodę
-    - zastanów się jaki typ danych będzie zwracać funkcja oblicz wiek? Czy musi wogóle coś zwracać?
+    - zastanów się jaki typ danych będzie zwracać funkcja oblicz wiek? Czy musi w ogóle coś zwracać?
     - jak pobrać od użytkownika rok który poda?
     - jak korzystać z instrukcji warunkowych? Jak są zbudowane?
     - jak stworzyć klasę? 
-
     */
 namespace wiek
 {

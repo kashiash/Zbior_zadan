@@ -1,0 +1,7 @@
+D:\Git\Zbior_zadan\Zadanie 4 - Potega\potega\bin\Debug\potega.exe.config
+D:\Git\Zbior_zadan\Zadanie 4 - Potega\potega\bin\Debug\potega.exe
+D:\Git\Zbior_zadan\Zadanie 4 - Potega\potega\bin\Debug\potega.pdb
+D:\Git\Zbior_zadan\Zadanie 4 - Potega\potega\obj\Debug\potega.csprojResolveAssemblyReference.cache
+D:\Git\Zbior_zadan\Zadanie 4 - Potega\potega\obj\Debug\potega.csproj.CoreCompileInputs.cache
+D:\Git\Zbior_zadan\Zadanie 4 - Potega\potega\obj\Debug\potega.exe
+D:\Git\Zbior_zadan\Zadanie 4 - Potega\potega\obj\Debug\potega.pdb
