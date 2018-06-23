@@ -1,0 +1,203 @@
+=================================================================
+powtórzenie jêzyka C#
+z æwiczeñ (praktycznie i teoretycznie)
+wykorzysta³em zdjêcia z notatek z æwiczeñ
+=================================================================
+
+1. Zadeklaruj tablicê jednowymiarow¹ o nazwie "gabka", rozmiarze 5, ktora bedzie
+przechowywaæ liczby ca³kowite. (to jest tzw. tworzenie tablicy z inicjalizacj¹!!)
+
+2. Zadeklaruj tablicê typu string o nazwie dniTygodnia. Do tablicy dodaj dwa elementy
+"sroda" i "piatek" (bez podawania rozmiaru i u¿ywania s³ówka new - wtedy to jest tzw. tworzenie tablicy bez inicjalizacji!!)
+
+nastêpnie za pomoc¹ pêtli for wyœwietl co ta tablica przechowuje (wykorzystaj do 
+pomocy indeks np. i który przejdzie po tablicy oraz s³ówka Length które zwraca rozmiar 
+tablicy - mo¿esz wykorzystaæ w warunku pêtli for czyli dniTygodnia.Length)
+
+3. Stwórz klasê Smietnisko i stwórz w niej publiczne pole typu calkowitego 
+rozmiar_smietniska. Nastêpnie stwórz konstruktor domyœlny i ustaw, ¿eby 
+rozmiar_smietniska mial wartosc domyslna 100. Nastepnie stworz obiekt tej
+klasy i wyswietl na ekran wartosc zmiennej rozmiar_smietniska.
+
+4. Stwórz klasê Sklep a w niej publiczn¹ zmienn¹ typu ca³kowitego stan_magazynu
+która ma wartoœæ 100. Ustaw zmienn¹ stan_magazynu na statyczn¹ zmienn¹ 
+(s³ówko static) a nastêpnie bez tworzenia obiektu wyœwietl jej wartoœæ! 
+Wyci¹gnij wnioski - co robi static.
+
+5. Twoja klasa ma prywatne konstruktory. Jak stworzysz obiekt tej klasy?
+Podaj przyk³ad(wymyœl coœ). ----> (podpowiedŸ: publiczna metoda statyczna)
+
+6. Czym jest przeci¹¿anie funkcji/operatorów i jak je wykonaæ? Czy 
+umiesz podaæ/zrobiæ przyk³ad pokazuj¹cy w jaki sposób ono dzia³a??
+
+7. Czy ten kod:
+Magazyn stan_a = new Magazyn() mo¿e dzia³aæ jeœli konstruktor
+domyslny jest prywatny? 
+
+8. Jak i gdzie zadeklarujesz destruktor klasy Owoce??
+Podaj przyk³ad. Po co nam taki destruktor w ogóle? 
+
+9. Czym jest wyj¹tek? Co oznacza exception? Po co nam wyj¹tki? 
+Czy potrafisz napisaæ przyk³ad wyj¹tku? - na przyk³ad który 
+³apie informacje o tym czy dzielmy przez 0. (NullReferenceException)
+
+10. Co oznaczaj¹ bloki try, catch, finally? 
+
+11. Do czego nam s³u¿y throw? PodpowiedŸ: s³ówko dobrze wyjaœnia do czego
+ono s³u¿y. :)
+
+12. Do czego nam s³u¿y this? (podpowiedŸ: przypomnij sobie konstruktor
+parametryczny)
+
+13. Czym jest rzutowanie danych? Czy umiesz podaæ przyk³ad rzutowania danych?
+
+14. mamy coœ takiego:
+
+class Muzycy : IGitarzysta, ISkrzypek
+{
+	public void Graj()
+	{	
+		Console.WriteLine("Muzycy graj¹");
+	}
+
+	void IGitarzysta.Graj()
+	{
+		Console.WriteLine("Gitarzysta gra");
+	}
+
+	void ISkrzypek.Graj()
+	{
+		Console.WriteLine("Skrzypek gra");
+	}
+}
+to jak wywo³aæ metodê Graj dla Skrzypka i gitarzysty?
+
+15. Czy maj¹c klasê np. Statystyka mo¿emy zrobiæ private class Statystyka { } ? 
+
+16. Czy interfejsy s¹ tylko publiczne??
+
+17. Czy w interfejsie mo¿emy deklarowaæ zmienne???
+
+18. Czy w interfejsie stosujemy modyfikatory dostêpu typu public, private?
+
+19. Wywo³ywanie metod z interfejsów. Na czym polega wywo³anie explicite a na czym
+implicite? Czy umiesz pokazaæ jak one dzia³aj¹? 
+
+20. Typy proste a typy referencyjne - a co za tym idzie kopiowanie p³ytkie a 
+kopiowanie g³êbokie (zdjêcie numer 19)
+
+21. Czym jest polimorfizm? Podaj ró¿nice miêdzy polimorfizmem statycznym
+a dynamicznym.
+
+22. Czym jest interfejs polimorficzny??? Deklarujemy go s³owem interface czy 
+s³owem class? Zastanów siê.
+
+23. Na czym polega przes³anianie metod? Do czego s³u¿y nam s³ówko virtual i override?
+
+24. Czy override wolno nam u¿yæ tylko w metodach abstract i virtual? 
+
+25. Czy metoda virtual mo¿e byæ private?
+
+26. Czy metoda virtual mo¿e byæ static?
+
+27. Czy funkcje abstrakcyjn¹ mo¿emy zadeklarowaæ w klasie:
+
+class Samochody
+{
+	.... 
+}
+
+28. Czy klasa abstrakcyjna ma konstruktor?
+
+29. Jak zadeklarowaæ klasê abstrakcyjn¹?
+
+30. Czy w klasie abstrakcyjnej mo¿emy u¿yæ protected? Co z private?
+
+31. Poæwicz w Visual Studio tablice dwuwymiarow¹ czyli takie operacje jak:
+- zadeklarowanie tablicy dwuwymiarowej
+- wyobra¿enie sobie jak ona wygl¹da
+- dopisanie do tablicy elementów
+- wypisanie z tablicy elementów
+- wypisanie z tablicy elementów pêtl¹?
+
+podpowiedŸ: jak deklarujesz tablicê dwuwymiarow¹ to robisz takie coœ [5,6] dla przyk³adu
+to to 5 oznacza tak jakby oœ X a 6 oœ Y. Czyli wiesz ile jest wierszy a ile kolumn :) 
+
+dobry link: https://4programmers.net/C_sharp/Tablice#tablice-wielowymiarowe
+
+32. Jak stworzyæ listê obiektów? 
+
+Stwórz dla przyk³adu klasy: Pracownik, Programista który dziedziczy po Pracownik, 
+Ksiegowa ktora dziedziczy po Pracownik. W klasie Pracownik stwórz metodê 
+CoRobi która wyœwietla na ekran: Pracownik Pracuje(wykorzystaj
+virtual). Dla klasy Programista i Ksiegowa zrob to samo (wykorzystaj override). 
+Stworz po jednym obiekcie danej klasy a nastepnie stworz liste obiektow. Za 
+pomoca petli foreach wywolaj metode dla kazdego obiektu.
+
+33. Jak stworzyæ tablicê obiektów??
+
+34. Czy pamiêtasz jak wyœwietliæ listê obiektów pêtl¹ foreach?
+
+35. Czy pamiêtasz jak wyœwietliæ tablicê obiektów pêtl¹ foreach?
+
+36. Czy pamiêtasz jak zaimplementowaæ metodê ICloneable z interfejsu ICloneable?
+
+37. Czy pamiêtasz jak¹œ wzmiankê o Garbage Collector? Mo¿e siê pojawiæ wiêc
+warto coœ o nim pamiêtaæ. 
+
+38. Czym jest klasa a czym obiekt?
+
+39. Filary obiektowoœci i krótko je wyjaœniæ?
+
+40. SOLID - regu³y projektowania obiektowego (Podaj i krótko opisz)
+
+41. Jak nazywa siê konstruktor klasy Warzywa?
+
+42. Laptop dell = new Laptop(); 
+a) które miejsce w tej linijce kodu jest konstruktorem
+b) za co odpowiada operator new?
+
+43. Czym jest namespace/przestrzen nazw?
+
+44. Na co pozwala dziedziczenie w C#?
+
+45. Klasa dziedziczona - klasa bazowa
+    Klasa dziedzicz¹ca - klasa potomna
+Prawda czy fa³sz?
+
+46. W jêztku UML jak oznaczamy poszczególne modyfikatory
+private, public, protected, internal?
+
+47. Diagramy klas - zwi¹zki
+
+48. Jak s¹ wywo³ywane konstruktory klas? 
+odp. Najpierw klasy bazowej potem potomnej!
+
+49. Zdefiniuj pojêcie klasy abstrakcyjnej.
+
+50. Klasa finalna - jak j¹ zadeklarowaæ i do czego s³u¿y?
+
+51. Czy do metody abstrakcyjnej mo¿emy dorzuciæ odrazu treœæ (kod) ? 
+
+52. Czy w klasach finalnych mo¿emy korzystaæ z modyfikatora private ?
+
+53. Czy interfejs X mo¿e dziedziczyæ po interfejsie Y? (Prawda/Fa³sz)
+
+54. Jak stworzyæ s³ownik, jak dodaæ do niego dane, jak wyœwietliæ te dane(pêtl¹)
+
+55. Podaj ró¿nice miedzy interfejsem polimorficznym a interfejsem?
+
+56. Jak stworzyæ s³ownik? Jak dodaæ do s³ownika elementy? Jak wypisaæ 
+dane ze s³ownika(pêtl¹ foreach?)
+
+57. Co to takiego interfejs??
+
+58. Opisz czym s¹ wzorce projektowe oraz podaj jakies przykladowe wzorce?
+
+59. Krótko o kolekcjach generycznych aby by³o wiadomo o co chodzi? :) 
+
+60. W¹tki - threads - wzmianka aby coœ tam pamiêtaæ :)
+
+61. Jakie mamy dostêpne modyfikatory dostêpu w C#? Krótko je opisz.
+
+62. Czy w C# mo¿emy rzutowaæ i w dó³ i w górê?
