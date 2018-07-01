@@ -42,6 +42,9 @@ using System.Threading.Tasks;
     analizować samemu kod! Polecam!
 
 
+
+
+
                                 *****************************************
                                      Temat: METODY, FUNKCJE, ZWRACANIE.
                                 *****************************************
@@ -346,7 +349,8 @@ namespace metody_wstep
     {
         static void Main(string[] args)
         {
-            // odpowiedzi
+
+            // twoje odpowiedzi
         }
     }
 }
