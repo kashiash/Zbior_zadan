@@ -13,7 +13,7 @@ Pewne oczywiście fragmenty będą wyjaśnione - postaram się je wyjaśnić tak
 tylko do rozjaśniania tego co zostało wypunktowane poniżej(mogą sie zdarzyć jakieś podpowiedzi ewentualnie...). 
 Podsumowując - jeżeli chcesz dobrze programować - praktyka,praktyka,praktyka,praktyka 
 
-####Ale, ale, ale - musisz pamiętać, że...!####
+#### Ale, ale, ale - musisz pamiętać, że...! ####
  
 ...samo pisanie kodu nie pozwoli Ci dobrze utrwalić działania isotnych elementów takich jak np. tablice,pętle. Równie ważnym aspektem
 jest umiejętność czytania kodu... Nie powinniśmy zaniedbywać tej umiejętności. Większość osób "załapuje" programowanie o wiele szybciej zaczynając od ćwiczenia właśnie
