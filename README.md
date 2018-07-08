@@ -12,7 +12,8 @@ najlepszy sposób, żeby dobrze przysiąść do programowania i nauczyć się go
 Pewne oczywiście fragmenty będą wyjaśnione - postaram się je wyjaśnić tak jak  ja je rozumiem ale będziemy się ograniczać
 tylko do rozjaśniania tego co zostało wypunktowane poniżej w głównej mierze - czyli tych istotnych podstaw(mogą sie zdarzyć jakieś podpowiedzi ewentualnie...). 
 Podsumowując - jeżeli chcesz dobrze programować - praktyka,praktyka,praktyka,praktyka. Zadania zostały zrobione na potrzeby nauki programowania, pomyślałem, że
-warto będzie je tu wrzucić, może ktoś skorzysta.
+warto będzie je tu wrzucić, może ktoś skorzysta. W razie jakichkolwiek pomyłek, błędów albo trudności ze zrozumieniem zadania proszę dać znać to postaram to
+poprawić albo __ewentualnie spróbować__ samemu poprawić na "sforkowanym" repozytorium.
 
 #### Ale, ale, ale - musisz pamiętać, że...! ####
  
@@ -32,11 +33,13 @@ do metod, które będzie trzeba stworzyć w kolejnych zadaniach.
 
 __Powodzenia w rozwiązywaniu zadań!__
 
-#### Co dzięki temu zbiorowi zadań utrwalisz/ogarniesz: ####
 
-		   0. Umiejętność czytania kodu.
+
+#### Co dzięki temu zbiorowi zadań utrwalisz/poznasz: ####
+
+		   0. Umiejętność czytania kodu. 
            1. Tworzenie funkcji, idea funkcji(metod) - w tym metoda void
-           2. Wypisywanie na ekran informacji, obliczenia, wczytywanie danych 
+           2. Wypisywanie na ekran informacji, obliczenia, wczytywanie danych (tego będziesz potrzebować do zadań oczywiście..) 
            3. Tablice/operacje na tablicach
            4. Konstruktor parametryczny/konstruktor domyślny
            5. Instrukcje warunkowe if

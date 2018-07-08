@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 /*
     ##########################################
-    # ostatnia aktualizacja notatki: 21.06.18r
+    # ostatnia aktualizacja notatki: 08.07.18r
     ##########################################
 
                UWAGA!
@@ -347,9 +347,32 @@ namespace metody_wstep
 {
     class Program
     {
+        public void MetodaPusta()
+        {
+            // metoda typu void nic nie zwraca
+        }
+
+        public int OddajLiczbe(int war)
+        {
+            // metoda typu int zatem musi zwrócić int(liczbe calkowita)
+            // jeżeli jeszcze nie wiemy jaką zmienną  
+            // będziemy zwracać to żeby nie wkurzał
+            // podkreślony błąd można napisać return i 
+            // wartosc w postaci typu który będziemy zwracać
+            // czyli w tym przypadku liczba całkowita, to np. damy 3
+            return 3;
+        }
+
+        public string PodajTekst(string okej)
+        {
+            okej = "czesc";
+            // analogiczny przykład co powyzej tylko metoda ma zwrócić string
+            // ja tu napisalem ze zwracamy tekst ze zmiennej okej
+            return okej;
+        }
+
         static void Main(string[] args)
         {
-
             // twoje odpowiedzi
         }
     }
