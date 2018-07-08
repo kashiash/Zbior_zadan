@@ -33,7 +33,7 @@ do metod, które będzie trzeba stworzyć w kolejnych zadaniach.
 __Powodzenia w rozwiązywaniu zadań!__
 
 #### Co dzięki temu zbiorowi zadań utrwalisz/nauczysz się: ####
-	   0. Umiejętność czytania kodu.
+	       0. Umiejętność czytania kodu.
            1. Tworzenie funkcji, idea funkcji(metod) - w tym metoda void
            2. Wypisywanie na ekran informacji, obliczenia, wczytywanie danych 
            3. Tablice/operacje na tablicach
@@ -56,7 +56,7 @@ __Powodzenia w rozwiązywaniu zadań!__
 		(kluczowe słówka ConvertTo i Parse)
 	   4. Wiek
 	        - jak pobrać rok z DateTime.Now
-           5. Potega
+       5. Potega
 	   	- wstawka o pętlach!
 		- petla nieskoczona(co to + przyklad)
 		- wstawka o instrukcji warunkowej if
