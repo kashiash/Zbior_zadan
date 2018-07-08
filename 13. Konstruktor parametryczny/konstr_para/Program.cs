@@ -29,6 +29,8 @@ namespace konstr_para
     {
         static void Main(string[] args)
         {
+
+            Console.ReadLine();
         }
     }
 }

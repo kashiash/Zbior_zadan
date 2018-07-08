@@ -91,6 +91,8 @@ namespace for_2
     {
         static void Main(string[] args)
         {
+
+		Console.ReadLine();
         }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
     Jak wiesz lub nie pętla nieskończona oznacza, że będzie wykonywała swoje instrukcje cały czas. 
     W tym programie skorzystasz z takiej możliwości w pętli while. 
     
-    *W razie co cofnij się do zadania 4, przy okazji potegi omowilismy tam petle nieskoczona while
+    *W razie co cofnij się do zadania 5, przy okazji potegi omowilismy tam petle nieskoczona while
     *i podany zostal rowniez przyklad takiej petli w kodzie:)
 
     a więc...

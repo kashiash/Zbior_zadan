@@ -39,7 +39,10 @@ using System.Threading.Tasks;
 
        przykładowo: string tekst = Console.ReadLine();
 
-    
+       #############################
+       Wspomnijmy sobie przy okazji:
+       #############################
+
        a co jeśli chcielibyśmy pobrać liczbe a nie tekst? - zapytasz
        Bo np. potrzebujemy dodac ta liczbe do innej liczby???
        Wtedy musimy zastosowac konwersje. Mozemy to zrobic na dwa sposoby:

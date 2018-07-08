@@ -40,6 +40,9 @@ using System.Threading.Tasks;
     - Co to jest ~?
     - Co znaczy operator != (NOT)?
 
+    && - AND (koniunkcja)
+    || - OR (alternatywa)
+   
 */
 namespace zwierzeta
 {
@@ -47,6 +50,8 @@ namespace zwierzeta
     {
         static void Main(string[] args)
         {
+
+            Console.ReadLine();
         }
     }
 }

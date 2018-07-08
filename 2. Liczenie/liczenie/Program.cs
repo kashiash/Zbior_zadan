@@ -71,6 +71,11 @@ using System.Threading.Tasks;
     bo czasem wygodniej Ci bedzie korzystac z np. Console.Write a innym razem z
     Console.WriteLine - to kiedy danej rzeczy użyć, zależy od Ciebie 
 
+    No i oczywiście możemy też wypisać na ekran tekst przechowywany przez zmienną
+
+    przykładowo:
+    string wiek = "czternascie";
+    Console.WriteLine(wiek);
     */
 namespace liczenie
 {
