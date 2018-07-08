@@ -65,7 +65,7 @@ __Powodzenia w rozwiązywaniu zadań!__
 	  15. Instrukcje warunkowe
 	  	- krótka(jednolinijkowa) instrukcja warunkowa i długa instrukcja warunkowa
 		- wstawka o instrukcji warunkowej if c.d
-          17. Instrukcje warunkowe 2
+      17. Instrukcje warunkowe 2
 	  	- wstawka o if w pętli 
 		- przypomnienie sobie instrukcji warunkowej
 	  30. Petla nieskoczona for
