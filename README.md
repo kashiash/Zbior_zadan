@@ -1,17 +1,18 @@
 # Repozytorium: "Zbior zadan C#" 
 
 Zbiór zadań C# dla osób które są w trakcie "przygody" z programowaniem w języku C#,
-__albo albo__ chcą utrwalić sobie przerobiony materiał. Nie otrzymasz tutaj poradnika w stylu
+__albo__ chcą utrwalić sobie przerobiony materiał. Nie otrzymasz tutaj poradnika w stylu
 napisz taką komende to stanie się takie coś - taka forma ćwiczenia jest według mnie bezsensu - ludzie ją nazywają
-często "prowadzeniem za rąsię". Nic się nie uczysz i przepisujesz po omacku. Bez obaw - starałem się tak rozpisać
+często "prowadzeniem za rąsię". Nic się nie uczysz i przepisujesz po omacku. Starałem się tak rozpisać
 zadania, żebyś wiedział czego masz szukać - bo widzisz, jeżeli np. w poleceniu trafia się
 "napisz program który pyta o nazwe użytkownika" to jeżeli Ty tego nie wiesz to pewnie
 pójdziesz "wygooglować" - C# jak wczytać zmienną od użytkownika albo C# how to get value from user
 czy coś w tym stylu - jeżeli Ci zależy..... i... dzięki temu będziesz sobie utrwalać wiedzę! To jest naprawdę
 najlepszy sposób, żeby dobrze przysiąść do programowania i nauczyć się go właściwie, który __polecam__. 
-Pewne oczywiście fragmenty będą wyjaśnione - postaram się je wyjaśnić tak jak umiem ale będziemy się ograniczać
-tylko do rozjaśniania tego co zostało wypunktowane poniżej(mogą sie zdarzyć jakieś podpowiedzi ewentualnie...). 
-Podsumowując - jeżeli chcesz dobrze programować - praktyka,praktyka,praktyka,praktyka 
+Pewne oczywiście fragmenty będą wyjaśnione - postaram się je wyjaśnić tak jak  ja je rozumiem ale będziemy się ograniczać
+tylko do rozjaśniania tego co zostało wypunktowane poniżej w głównej mierze - czyli tych istotnych podstaw(mogą sie zdarzyć jakieś podpowiedzi ewentualnie...). 
+Podsumowując - jeżeli chcesz dobrze programować - praktyka,praktyka,praktyka,praktyka. Zadania zostały zrobione na potrzeby nauki programowania, pomyślałem, że
+warto będzie je tu wrzucić, może ktoś skorzysta.
 
 #### Ale, ale, ale - musisz pamiętać, że...! ####
  
@@ -47,7 +48,7 @@ __Powodzenia w rozwiązywaniu zadań!__
 
 		   
 		   
-__Uwaga:__ Aby dostać się do zadania musisz kliknąć dwa razy lewym przyciskiem myszy w miejsce zaznaczone na zdjęciu(po otwarciu projektu z zadania)
+__Uwaga!!!__ Aby dostać się do zadania musisz kliknąć dwa razy lewym przyciskiem myszy w miejsce zaznaczone na zdjęciu(po otwarciu projektu z zadania)
 
 
 
