@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * #aktualizacja
+ * #aktualizacja (lipiec 2018)
  * Poniżej podjeśliśmy akcję rozjaśnienia sensu istnienia tablicy 
  * na życiowym przykładzie myślę
  * polecam się zapoznać przed przejściem do zadania :):):)
@@ -97,6 +97,10 @@ using System.Threading.Tasks;
     mam nadzieje, że troche Ci to pokazało jak taka tablica funkcjonuje i jaka ona jest zyciowa,
     a wiec jak podejmiesz sie zadania z tablic - albo planujesz taka tablice wprowadzic to wyobrazaj
     sobie ja jak takie pudelko :)
+
+    jako, że podaliśmy tyle pełynch przykładów to nie będę już tam wrzucał do bloku programu, w razie
+    jak chcesz przetestować je do smialo skopiuj i sprawdz jak dzialaja :) 
+
     */
 namespace tablice1
 {
@@ -104,7 +108,9 @@ namespace tablice1
     {
         static void Main(string[] args)
         {
+          
 
+            Console.ReadLine();
         }
     }
 }
