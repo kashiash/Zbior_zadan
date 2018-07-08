@@ -10,7 +10,7 @@ using System.Threading.Tasks;
     Niech każdy obiekt ma przynamniej 2 parametry (np. nazwa, wiek..).
     Stwórz następnie tablicę obiektów i ją wyświetl.
 
-    podpowiedz:
+    #! podpowiedz:
     tworzylismy tablice obiektow w taki sposob:
 
     nazwa klasy[] nazwa tablicy = {nazwa obiektu, nazwa obiektu}
@@ -30,7 +30,9 @@ using System.Threading.Tasks;
     - Co to indeks? Jak działa "indeks" w tablicy? Wyobraź sobie jak indeks chodzi po tablicy.
     - Co to jest tablica jednowymiarowa?
 
-    w razie kłopotów powróć do Tablice cz.1
+      Tablice omówiliśmy w zadaniu 6. Tablice cz1
+      (w razie potrzeby wróć)
+
     */
 
 namespace tablica2
@@ -39,6 +41,8 @@ namespace tablica2
     {
         static void Main(string[] args)
         {
+
+            Console.ReadLine();
         }
     }
 }
