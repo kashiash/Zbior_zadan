@@ -17,9 +17,9 @@ namespace czyt1
             Console.WriteLine("Wylosowales: " + tablica[w]);
         }
 
-        int[] Przerob(int[] tablica)
+        void Przerob(int[] tablica)
         {
-            int max = tablica.Length;
+            int max = tablica.Length;  // bieremy rozmiar tablicy, 
             
             if(0 < max) tablica[0] = 2;
             if(1 < max) tablica[1] = 3;
@@ -27,8 +27,7 @@ namespace czyt1
             if (3 < max) tablica[3] = 155;
             if (4 < max) tablica[4] = 299;
             // co zabezpiecza ten if?
-
-            return tablica;
+      
         }
 
         static void Main(string[] args)
@@ -37,12 +36,18 @@ namespace czyt1
             Program testy = new Program();
 
             int[] totolotek = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            // deklarujemy tablice liczba calkowitych o nazwie totolotek
+
             testy.Zwracaj(totolotek);
+            // wywolujemy funkcje Zwracaj przekazujac argument totolotek(czyli nasza tablice)
 
             // funkcja2
-            int[] nowe = testy.Przerob(totolotek);
-            Console.WriteLine(nowe[3]);
-            Console.WriteLine(nowe[4]);
+            testy.Przerob(totolotek);
+            // deklarujemy tablice l.calkowitych o nazwie nowe ktorej zawartoscia bedzie wynik funkcji
+            // przerob do ktorej przekazujemy nasza tablice czyli totolotek
+
+            Console.WriteLine(totolotek[3]);
+            Console.WriteLine(totolotek[4]);
 
             Console.ReadLine();
         }

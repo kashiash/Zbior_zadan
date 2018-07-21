@@ -79,3 +79,6 @@ __Powodzenia w rozwiązywaniu zadań!__
 __Uwaga!!!__ Aby dostać się do zadania musisz kliknąć dwa razy lewym przyciskiem myszy w miejsce zaznaczone na zdjęciu(po otwarciu projektu z zadania)
 
 ![alt text](https://image.ibb.co/nthMzo/pami.png)
+
+
+

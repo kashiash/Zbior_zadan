@@ -46,11 +46,14 @@ namespace czyt1
                 Console.WriteLine("2. Podmien element");
                 Console.WriteLine("3. Koniec");
                 int decyzja = Convert.ToInt32(Console.ReadLine());
-                if (decyzja == 1) totolotek = testy.Wyswietl(totolotek);  // po co przypisujemy do tablicy wynik funkcji?
+                if (decyzja == 1) testy.Wyswietl(totolotek);  // po co przypisujemy do tablicy wynik funkcji?
                 else if (decyzja == 2) totolotek = testy.Podmien(totolotek);
                 else break;
                 // co robil break i kiedy wolno go uzywac?
+                // break - opuszczenie petli 
             }
+
+            Console.ReadLine();   // lub Console.ReadKey();
         }
     }
 }

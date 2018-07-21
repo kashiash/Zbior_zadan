@@ -313,7 +313,7 @@ using System.Threading.Tasks;
        wyświetlić wynik metody :), jeśli nie pamiętasz to zerknij do góry szybciutko!)
 
 
-============
+===================================================================================================================
 
       ~A więc, jeśli przestudiowałeś to wszystko i czujesz, że udało Ci się zrozumieć to gratulację, a
        jeśli w dalszym ciągu nurtują Cię jakieś pytania, wątpliwości to koniecznie je rozwiej w sposób

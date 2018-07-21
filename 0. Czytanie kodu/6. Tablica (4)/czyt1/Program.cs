@@ -22,16 +22,26 @@ namespace czyt1
                 Console.Write(totolotek[i] + " ");
             }
 
+            // + " " po to zeby nie bylo sklejone... 
+            // totolotek[0] totolotek[1] totolotek[2] totolotek[3]....
+
+            // gdyby nie bylo + " " 
+            // totolotek[0]totolotek[1]totolotek[2]totolotek[3]....
+
             for (int i = 0; i < max; i++)
             {
                 totolotek[i] += 3;
             }
-            // stan tablicy: ? 
+
+            // += to tzw. szybkie przypisanie
+            // totolotek[i] += 3 bedzie wygladalo tak: totolotek[i] = totolotek[i] + 3;
+
 
             for (int i = 0; i < max; i++)
             {
                 Console.Write(totolotek[i] + " ");
             }
+            // wypisujemy na ekran stan tablicy
 
             for (int i = 0; i < max; i++)
             {
@@ -43,6 +53,7 @@ namespace czyt1
             {
                 Console.Write(totolotek[i] + " ");
             }
+
 
             Console.ReadLine();
         }

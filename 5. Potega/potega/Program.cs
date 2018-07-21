@@ -21,7 +21,7 @@ using System.Threading.Tasks;
     mógł bez nich żyć w świecie programowania.
 
     Utrwalisz sobie do tego zadania:
-    - jak korzystać z pętli for, a jak z pętli while
+    - jak korzystać z pętli?
     - jak są zbudowane pętle, co znaczy wogóle pętla
     - co to jest instrukcja warunkowa? Jak ja napisać? Jak dziala?
     - jak pobrać od użytkownika zmienne? 
@@ -118,13 +118,13 @@ using System.Threading.Tasks;
     Twoje instrukcje warunkowe nie muszą składać się ze wszystkich rzeczy, mogą być
     bardzo rozbudowane, a mogą być tylko zbudowane z ifa
 
-    <> przykład1:
+    <> <> <> <> przykład1:
     if(x < 100)
     {
         Console.WriteLine("X jest mniejsze od 100");
     }
 
-    <> przyklad2:
+    <> <> <> <> przyklad2:
     if(x < 100)
     {
         Console.WriteLine("X jest mniejsze od 100");
@@ -135,7 +135,7 @@ using System.Threading.Tasks;
     }
 
 
-    <> przyklad3:
+    <> <> <> <> przyklad3:
     if(x < 100)
     {
         Console.WriteLine("X jest mniejsze od 100");
@@ -150,16 +150,37 @@ using System.Threading.Tasks;
     }
 
     Instrukcje warunkowe są szczególnie przydatne w pętlach gdy np. w określonym momencie
-    coś chcemy zrobić... np. wyjść z pętli :) 
-
+    coś chcemy zrobić... np. wyjść z pętli :)  
     */
 namespace potega
 {
     class Program
     {
+        // słówko static powoduje, że nie potrzebujemy "obiektu" aby wywołać/odnieść się
+        // do danej rzeczy, w poniższym przykładzie daliśmy słówko static do metody przez
+        // co w części Main możemy napisać odrazu nazwę metody bez obiektu.
+        // warto wspomnieć że jeżeli nie napiszemy modyfikatora dostępu, domyślnie zostanie
+        // nadany modyfikator "private"
+        static int Mojametoda()
+        {
+            return 5;
+        }
+
         static void Main(string[] args)
         {
 
+
+
+
+
+
+            /* PRZYKLADOWE */
+
+            // przykładowe wywołanie metody z jednoczesnym przypisaniem
+            // tego co metoda zwraca do zmiennej liczba
+            int liczba = Mojametoda();
+
+            Console.WriteLine("liczba = " + liczba);        // wypisze 5
 
             /* Przykładowy nieskończony program:
              * Sprawdź go, jeżeli chcesz, tylko usuń
@@ -174,8 +195,6 @@ namespace potega
             }
 
             */
-
-
             Console.ReadLine();
         }
     }

@@ -16,13 +16,14 @@ namespace czyt1
             // tablica 
             string[] totolotek = { "cze", "pok", "lemo", "dyw" };
             int max = totolotek.Length;
+            // deklarujemy zmienna typu int max
 
             for (int i = 0; i < max; i++)
             {
                 Console.WriteLine(totolotek[i] + " ");
             }
 
-            Console.WriteLine("\n\n");
+            Console.WriteLine("skok1\nskok2\nskok3");
             // WriteLine robi nowa linie
             // Write pisze w tej samej
             // \n robi nowa linie 

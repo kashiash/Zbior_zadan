@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Teorię mamy za sobą więc teraz zabierzmy się za praktyczne rozwiązania 
+    O funkcjach teorię mamy za sobą więc teraz zabierzmy się za praktyczne rozwiązania 
     W ten sposób - pokażemy, że nie trzeba wkuwać na pamięć możliwości środowiska
     tylko wystarczy je przećwiczyć w zadaniu, zrozumieć i pobawić się tym samemu :) 
 
@@ -13,19 +13,24 @@ using System.Threading.Tasks;
     Napisz metode w klasie zlicz ktora zsumuje trzy liczby podane przez uzytkownika.
     Niech twoja metoda zwraca wartosc typu float.
 
-    A więc do tego zadania przypomnimy sobie:
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    A więc do tego zadania wykorzystamy:
     - jak tworzyć metodę w klasie?
-    - jak tworzyć klasę?
+    - jak tworzyć klasę?       
+      // class nazwa_klasy i klamry
     - jak wczytywać liczbę od użytkownika?
-      // podpowiedź: musimy Console.Readline skonwertować do liczby albo Parsem albo ConvertTo 
+      // podpowiedź: musimy Console.Readline skonwertować do liczby albo Parse albo ConvertTo 
+      // omówienie Parse i ConvertTo znajduje się w projekcie z zadania 3.Wypisz <- zajrzyj tam
+      // jeżeli potrzebujesz :)
     - jak wywołać funkcję z klasy? 
       // shhhh, obiekt, stwórz obiekt.
+      >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
     przykład działania twojego programu:
     Podaj liczbe1: 2
     Podaj liczbe2: 5
     Podaj liczbe3: 6
-    2+5+6=13
+    na ekranie ma pokazać: 2 + 5 + 6 = 13
 
     #! #! #! UWAGA #! #! #! 
     przypomnijmy sobie:
@@ -76,6 +81,9 @@ using System.Threading.Tasks;
     przykładowo:
     string wiek = "czternascie";
     Console.WriteLine(wiek);
+
+    przypominam jeszcz raz, że jeżeli nie wiesz w jaki sposób pobrać od użytkownika liczbę
+    to zajrzyj do projektu 3.Wypisz :)
     */
 namespace liczenie
 {
