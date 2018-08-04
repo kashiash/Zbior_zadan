@@ -1,8 +1,9 @@
 # Repozytorium: "Zbiór zadań C#" #
+## i dla tych początkujących, i "utrwalających ##
 
-<p align="center">
+<p align="left">
 <b>Co znajdziesz w opisie:</b></br>
-1. O zbiorze zadań słów kilka.</br>
+1. O zbiorze zadań słów kilka - co, jak, dlaczego.</br>
 2. O tym jak efektywnie uczyć się programowania.</br>
 3. Co znajduje się w zbiorze zadań.</br>
 4. MiniŚciąga, gdzie i co zostało wytłumaczone.</br>
@@ -11,7 +12,7 @@
 Zbiór zadań C# jest zbiorem dla osób które są w trakcie "przygody" z programowaniem w języku C#,
 __albo__ chcą utrwalić sobie przerobiony materiał(np. z programowania obiektowego) _bądź_ wchodzą dopiero
 w tematyke programowania i języka C#. Starałem się tak rozpisać zadania, żebyś wiedział czego masz szukać
-- bo widzisz, jeżeli np. w poleceniu trafia się załóżmy "napisz program który pyta o nazwe użytkownika" to
+bo widzisz, jeżeli np. w poleceniu trafia się załóżmy "napisz program który pyta o nazwe użytkownika" to
 jeżeli tego nie wiesz to pewnie pójdziesz tzw. "wygooglować" pisząc coś typu: C# jak wczytać zmienną od użytkownika albo
 może C# how to get value from user albo inaczej..i jeżeli Ci zależy na programowaniu to szukając kodu będziesz sobie efektywnie utrwalać
 swoją wiedzę! To jest naprawdę najlepszy i najefektywniejszy sposób, żeby dobrze przysiąść do programowania i nauczyć się go właściwie,
@@ -99,8 +100,7 @@ Chciałbym aby zmieniło się podejście do nauki programowania - uczyć zastoso
 
 __Uwaga!!!__ Aby dostać się do zadania musisz kliknąć dwa razy lewym przyciskiem myszy w miejsce zaznaczone na zdjęciu(po otwarciu projektu z zadania)
 
-![alt text](https://image.ibb.co/nthMzo/pami.png
-<img align="left" src="https://image.ibb.co/nthMzo/pami.png" height="250">
+<img align="left" src="https://image.ibb.co/nthMzo/pami.png" height="400">
 
 
 ## PS: Bedę starał się w miare możliwości ulepszać zbiór aby był coraz lepszy ##
