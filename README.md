@@ -1,21 +1,32 @@
-# Repozytorium: "Zbior zadan C#" 
+# Repozytorium: "Zbiór zadań C#" #
 
-Zbiór zadań C# dla osób które są w trakcie "przygody" z programowaniem w języku C#,
-__albo__ chcą utrwalić sobie przerobiony materiał. Starałem się tak rozpisać
-zadania, żebyś wiedział czego masz szukać - bo widzisz, jeżeli np. w poleceniu trafia się
-"napisz program który pyta o nazwe użytkownika" to jeżeli Ty tego nie wiesz to pewnie
-pójdziesz "wygooglować" - C# jak wczytać zmienną od użytkownika albo C# how to get value from user
-czy coś w tym stylu - jeżeli Ci zależy..... i... dzięki temu będziesz sobie efektywnie utrwalać wiedzę! To jest naprawdę
-najlepszy sposób, żeby dobrze przysiąść do programowania i nauczyć się go właściwie, który __polecam__. 
-Pewne oczywiście fragmenty będą wyjaśnione - postaram się je wyjaśnić tak jak ja je rozumiem ale będziemy się ograniczać
-tylko do rozjaśniania kluczowych rzeczy.
+<p align="center">
+<b>Co znajdziesz w opisie:</b></br>
+1. O zbiorze zadań słów kilka.</br>
+2. O tym jak efektywnie uczyć się programowania.</br>
+3. Co znajduje się w zbiorze zadań.</br>
+4. MiniŚciąga, gdzie i co zostało wytłumaczone.</br>
+</p>
 
-Jeżeli chcesz dobrze programować - praktyka,praktyka,praktyka,praktyka i jeszcze raz praktyka. 
+Zbiór zadań C# jest zbiorem dla osób które są w trakcie "przygody" z programowaniem w języku C#,
+__albo__ chcą utrwalić sobie przerobiony materiał(np. z programowania obiektowego) _bądź_ wchodzą dopiero
+w tematyke programowania i języka C#. Starałem się tak rozpisać zadania, żebyś wiedział czego masz szukać
+- bo widzisz, jeżeli np. w poleceniu trafia się załóżmy "napisz program który pyta o nazwe użytkownika" to
+jeżeli tego nie wiesz to pewnie pójdziesz tzw. "wygooglować" pisząc coś typu: C# jak wczytać zmienną od użytkownika albo
+może C# how to get value from user albo inaczej..i jeżeli Ci zależy na programowaniu to szukając kodu będziesz sobie efektywnie utrwalać
+swoją wiedzę! To jest naprawdę najlepszy i najefektywniejszy sposób, żeby dobrze przysiąść do programowania i nauczyć się go właściwie,
+który __polecam__. Oczywiście postaram się dołączyć podpowiedzi od siebie, aby nakierunkować Cię na to jak dany aspekt działa. :) 
+Aha, opisy znajdziesz otwierając projekty na samej górze. Czasami postaram się dodać do funkcji main jakieś przykłady :) 
+
+
+__Jeżeli chcesz dobrze programować__ - __praktyka,praktyka,praktyka,praktyka__ i jeszcze raz praktyka. 
 Korzystaj z tutoriali, szukaj rozwiazan, staraj sie je zrozumiec a twoj poziom programowania
-bedzie coraz lepszy. Zadania zostały zrobione na potrzeby nauki programowania, pomyślałem, że
-warto będzie je tu wrzucić, może ktoś skorzysta. :) 
+bedzie coraz to lepszy. To jest tak jak z "wyrobieniem sylwetki" - nie będziesz mieć efektu po 5 dniach, trzeba
+być cierpliwym i zdeterminowanym - Ty też musisz mieć takie nastawienie! Zadania zostały zrobione na potrzeby nauki
+programowania, pomyślałem, że warto będzie je tu wrzucić, a nóż może ktoś skorzysta/komuś się przydadzą. :) 
 
-#### Ale, ale, ale - musisz pamiętać, że...! ####
+
+### Ale, ale, ale - czytelniku - musisz pamiętać, że.. ###
  
 ...samo pisanie kodu nie pozwoli Ci dobrze utrwalić działania isotnych elementów takich jak np. tablice,pętle. Równie ważnym aspektem
 jest umiejętność czytania kodu... Nie powinniśmy zaniedbywać tej umiejętności. Większość osób "załapuje" programowanie o wiele szybciej zaczynając od ćwiczenia właśnie
@@ -24,33 +35,43 @@ przykładów w jakich celach stosowano np. tablice i z czym się ją używało i
 __Konsekwencją zaniedbywania zdolności czytania kodu__ jest potem __problem z pomysłem na rozwiązanie zadania, "od czego zacząć???"__ - mimo, że znamy wszelkie dostępne elementy języka(tablice,funkcje,rzutowania,petle)
 Wiadomo, że jeżeli nie wiesz jak działa np. pętla for to warto w pierwszej kolejności ją sobie przeanalizować a dopiero potem spróbować zrozumieć jak działa kod z taką pętlą i utrwalić sobie poznane wiadomości.
 
-#### krótka notka: ####
+
+### krótka notatka odnośnie zbioru zadań dla Ciebie: ###
 1 lekcja, jest w głównej mierze tylko lekcją teoretyczną, to znaczy przypominamy tam sobie
 co to takiego metoda, jak wyglądają metody, czy muszą zawsze coś zwracać? Metoda typu void?
 itd .... Zatem będzie to wstęp, który pomoże zastanowić Ci się nad tym jak dobrać typ danych
 do metod, które będzie trzeba stworzyć w kolejnych zadaniach. 
 
 __Powodzenia w rozwiązywaniu zadań!__
+__Pamiętaj, nie poddawaj się, próbuj rozwiązać zadanie, prędzej czy później Ci się uda :)
 
-#### Co dzięki temu zbiorowi zadań utrwalisz/nauczysz się: ####
-	       0. Umiejętność czytania kodu.
-           1. Tworzenie funkcji, idea funkcji(metod) - w tym metoda void
+### Post Scriptum1: ###
+Pamiętaj, że jeżeli te "podstawy" w tym zbiorze zrozumiesz to bez problemu poradzisz sobie i w innych językach programowania, np. gdy będziesz
+miało okazję poznać Python, Java itd..
+
+### Post Scriptum2: ###
+Chciałbym aby zmieniło się podejście do nauki programowania - uczyć zastosowania, działania w praktyce a nie książkowych definicji - nudaaaa. 
+
+
+## Co dzięki temu zbiorowi zadań utrwalisz/nauczysz się/poznasz: ##
+	       0. Umiejętność właściwego czytania kodu ze zrozumieniem.
+           1. Tworzenie funkcji, idea funkcji(metod)
            2. Wypisywanie na ekran informacji, obliczenia, wczytywanie danych 
-           3. Tablice/operacje na tablicach
+           3. Tablice/operacje na tablicach 
            4. Konstruktor parametryczny/konstruktor domyślny
-           5. Instrukcje warunkowe if
-           6. Instrukcja Switch
-           7. Petle nieskonczone
-           8. Petle zagniezdzone(np. "petla w petli")
-           9. Listy
-           10. Rzutowanie na inny typ danych
+           5. Instrukcje warunkowe if (-> pętle je uwielbiają!)
+           6. Instrukcja Switch (-> rzadko używana, ale czasem przydatna..)
+           7. Pętle nieskończone (-> do np. menu konsolowego)
+           8. Pętle zagnieżdżone(-> a'la "pętla w pętli")
+           9. Listy (-> uważam je za jeden z najistotniejszech i najprzydatniejszych elementów "Kolekcji")
+           10. Rzutowanie na inny typ danych(-> type casting)
 
-#### Miejsca w których poszczególne rzeczy zostały wytłumaczone: ####
+## Miejsca w których poszczególne rzeczy zostały wytłumaczone abyś mógł je odnaleźć w razie kłopotów: ##
 	   1. Funkcje 
 	   	- metoda typu void
 		- modyfikatory dostępu(public,private,internal,protected)
 	   2. Liczenie
-	   	- w jaki sposób wypisać na ekran informacje? (tekst)
+	   	- w jaki sposób wypisać na ekran informacje? (z naciskiem na tekst)
  	   3. Wypisz
 	   	- w jaki sposób zapisać od użytkownika liczby? 
 		(kluczowe słówka ConvertTo i Parse)
@@ -78,7 +99,11 @@ __Powodzenia w rozwiązywaniu zadań!__
 
 __Uwaga!!!__ Aby dostać się do zadania musisz kliknąć dwa razy lewym przyciskiem myszy w miejsce zaznaczone na zdjęciu(po otwarciu projektu z zadania)
 
-![alt text](https://image.ibb.co/nthMzo/pami.png)
+![alt text](https://image.ibb.co/nthMzo/pami.png
+<img align="left" src="https://image.ibb.co/nthMzo/pami.png" height="250">
 
+
+## PS: Bedę starał się w miare możliwości ulepszać zbiór aby był coraz lepszy ##
+## Jeszcze raz, powodzenia i mam nadzieję, że przydadzą Ci się te zadania :) ## 
 
 
