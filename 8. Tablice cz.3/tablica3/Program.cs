@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    =============================
+            Treść zadania:
+    =============================
     Stwórz klasę operacje_na_tablicach. Stwórz metodę, która wypisze tablicę oraz metodę, która wpisze do 
     tablicy 35 elementowej ciągi napisów. Jeśli obecna wartość indeksu będzie liczbą parzystą, metoda wpisze 
     do tablicy: "Mój indeks jest parzysty". Natomiast jeśli obecna wartość indeksu będzie liczbą nieparzystą: 
@@ -14,7 +16,9 @@ using System.Threading.Tasks;
     przykład wydruku na ekran:
     nazwa_tablicy[obecny_indeks] = Mój indeks jest parzysty
 
-    Utrwalisz sobie dzięki temu poleceniu m.in:
+    ==========================================================
+           Utrwalisz sobie dzięki temu poleceniu m.in:
+    ==========================================================
     - do czego nam indeks w tablicy?
     - jak stworzyć metodę, klasę?
     - jak stworzyć obiekt?

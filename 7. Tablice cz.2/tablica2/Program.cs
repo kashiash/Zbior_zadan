@@ -5,12 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    =================================
+              Treść zadania:
+    =================================
     Stwórz klasę "Zwierzęta". Dodaj do niej kilka obiektów (minimum 3).
     Niech każdy obiekt ma przynamniej 2 parametry (np. nazwa, wiek..).
     Stwórz następnie tablicę obiektów i ją wyświetl.
 
-    #! podpowiedz:
+    =================================
+             #! podpowiedzi:
+    =================================
+
     tworzylismy tablice obiektow w taki sposob:
 
     nazwa klasy[] nazwa tablicy = {nazwa obiektu, nazwa obiektu}
@@ -18,16 +23,17 @@ using System.Threading.Tasks;
     i pamietaj, ze aby wyswietlic elementy tablicy, musisz skorzystac z petli !
     (ktora bedzie indeks przesuwac po tablicy!!!)
 
-    Zastanów się jak to wyglądało wszystko, od czego zacząć? Uporządkuj sobie wiedze,
-    myśl fragmentami to znaczy: zbuduj kod idąc krok po kroku. Kombinuj. 
+    Pamiętaj aby podchodzić do zadania krok po kroku :)
 
-    Utrwalisz sobie w ten sposób:
+    =================================
+      Utrwalisz sobie w ten sposób:
+    =================================
     - Po co nam tablica obiektów?
-    // żeby odwoływać się do kilku obiektów jednocześnie :)
+    // żeby odwoływać się do kilku obiektów jednocześnie
 
     - Czemu akurat w pętli musimy wyświetlić obiekty z tablicy?
     // jeżeli chcemy wyświetlić dany "atrybut" każdego z obiektów to trzeba to zrobić w pętli
-    // jeżeli chcemy informacje od jednego obiektu - nie musimy tak naprawdę...
+    // jeżeli chcemy informacje od jednego obiektu - nie musimy, tak naprawdę...
 
     - Po co nam "klasa"?
     // aby mieć przygotowany "przepis" na stworzenie obiektu i go się trzymać
@@ -35,27 +41,79 @@ using System.Threading.Tasks;
 
     - Jak stworzyć obiekty klasy?
     // typowy sposób: nazwa klasy nazwa obiektu = new nazwa klasy();
-    // ale możemy tez na inne sposoby... np. z parametrami
+    // ale możemy tez na inne sposoby... np. z parametrami(czyli za pomocą konstuktora parametrycznego)
 
     - Jak przypisać do obiektów parametry np. wiek?
-    // obiekt.wiek = 15; przykładowo lub tworząc obiekt za pomocą konstruktora parametrycznego
+    // obiekt.wiek = 15; przykładowo lub tworząc obiekt za pomocą konstruktora parametrycznego..
 
     - Co to indeks? Jak działa "indeks" w tablicy? Wyobraź sobie jak indeks chodzi po tablicy.
-    // indeks to coś co wskazuje jakieś jedno miejsce, chodzi tak jak my będziemy tego sobie życzyć
+    // indeks to coś co wskazuje jakieś jedno miejsce, chodzi po tablicy tak jak my będziemy tego sobie życzyć
+    // czy to np. po wartościach parzystych, czy co 4 czy ... no tyle ile sobie wymyślimy
 
     - Co to jest tablica jednowymiarowa?
     // mamy tylko jeden wymiar w który możemy wrzucać dane
     // czyli wyobrażamy sobie tablice mniej wiecej tak:  [][][][][][][][]
+    
+    ==================================================
+    ?: Panie, a co z tablicami wielowymiarowymi?
+    ==================================================
 
+    Taaak. Mamy jeszcze coś takiego jak tablice wielowymiarowe, ale powiem Ci szczerze - jeszcze nie spotkałem się
+    z sytuacją skorzystania z tablicy wielowymiarowej a sporo już przerobiłem programowania. Przyznam, że 
+    raz skorzystałem z dwuwymiarowej w projekcie z Enigmą... ale po przemyśleniu sytuacji.. zdałem sobie
+    sprawę że wystarczyła mi tablica jednowymiarowa. 
+
+    zróbmy jednak taką "wspominkę" o tych tablicach, żebyś miał/miała świadomość o nich
+
+    konstrukcja zadeklarowania tablicy wielowymiarowej z określeniem rozmiaru:
+    typ_danych[,] nazwa_tablicy = new [x,y]
+    gdzie za x i y podajesz liczby lub zmienne calkowite ktore przechowuja liczby..
+
+    przykład:
+    int[,] tabka = new int[3,2];
+
+    dzięki czemu stworzymy tablice o wymiarach 3x2 czyli taką(obrazowo)
+     
+       0        1        2
+    ---------------------------
+    |       |        |        |  0
+    |       |    3   |        |
+    ---------------------------
+    |       |        |        |  1
+    |       |        |        |
+    ---------------------------
+
+     i dla przykładu, aby odwołać się do miejsca w tablicy gdzie jest zapisana nasza 3 musielibyśmy napisać:
+     Console.WriteLine(tabka[1,0]);       => wypiszemy 3 na ekran w ten sposób
+
+    ?: a jeżeli chcemy zadeklarować tablice wielowymiarową z przypisaniem elementów odrazu to możemy zrobić to tak:
+
+    => przykład:
+            int[,] tablicaWrym = new int[,] { { 5, 6, 7 }, { 1, 2, 1 } };
+    
+    otrzymamy w ten sposób taką tablicę:
+
+        0       1
+    -----------------
+    |   5   |   1   |   0
+    -----------------
+    |   6   |   2   |   1
+    -----------------
+    |   7   |   1   |   2
+    -----------------
+
+    =================================
+                Pamiętasz?
+    =================================
       Tablice omówiliśmy w zadaniu 6. Tablice cz1
       (w razie potrzeby wróć do tego projektu)
+
     */
 
 namespace tablica2
 {
     // tu stwórz klasę
 
-    
     class Pokaz
     {
         int wiek;
@@ -66,7 +124,8 @@ namespace tablica2
         {
             this.wiek = wiek;
             this.imie = imie;
-            // poprzez słówko this mówimy, że ta "konkretna" zmienna ma przechowywać wiek, imie
+            // poprzez słówko /this/ mówimy, że ta "konkretna" zmienna ma przechowywać wiek, imie
+            // działa to trochę jak a'la wskaźnik tylko wg. mnie łatwiejszy
         }
 
         public void WyswietlInformacje()
@@ -82,7 +141,10 @@ namespace tablica2
 
         static void Main(string[] args)
         {
-
+          
+            // do sprawdzenia tablicy wielowymiarowej(odkomentuj jak chcesz sprawdzić)
+            // int[,] tablicaWrym = new int[,] { { 5, 6, 7 }, { 1, 2, 1 } };
+            // Console.Write("Element: " + tablicaWrym[0, 0]);
 
             /* PRZYKLADY */
             // w razie jeżeli przykłady będą Ci przeszkadzać,
@@ -109,6 +171,7 @@ namespace tablica2
 
             // 5: przykładowe wyświetlenie parametrów
             obiekt100.WyswietlInformacje();
+
 
 
             Console.ReadLine();

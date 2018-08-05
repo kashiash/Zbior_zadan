@@ -5,12 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    ==================================
+                Treść zadania:
+    ==================================
     Napisz w klasie potega dwie metody, które będą nazywać się: potega_rekurencyjnie, potega_iteracyjnie. Program
     ma się zapytać w pierwszej kolejności użytkownika jak woli policzyć potege czy rekurencyjnie czy iteracyjnie.
     W zależności od wyboru program liczy potege korzystając ze sposobu, który wybrał użytkownik. 
 
-    przykładowy wynik programu:
+    ==================================
+        przykładowy wynik programu:
+               (propozycja)
+    ==================================
     Program: Witaj! Jak chcesz policzyć potege? 
     Program: wpisz 'rekurencyjnie' 
     Program: lub
@@ -20,7 +25,9 @@ using System.Threading.Tasks;
     Program: Potege jakich liczb chcesz policzyć?
     itd....
 
-    Utrwalisz sobie:
+    ==================================
+             Utrwalisz sobie:
+    ==================================
     - Jak liczymy potege iteracyjnie a jak rekurencyjnie?
     - Jak implementujemy potege do programu?
     - Co to jest klasa, metoda?
@@ -29,7 +36,9 @@ using System.Threading.Tasks;
     - Co to jest rekurencja?
     - Czy rekurencja musi mieć jakiś warunek?
 
-    #! Podpowiedzi:
+    ==================================
+              #! Podpowiedzi:
+    ==================================
 
     Potega iteracyjnie to musimy stworzyć pętlę np. for
     jak użytkownik poda że chce 2 do 3 podnieść to ta petla musi sie
@@ -46,7 +55,9 @@ using System.Threading.Tasks;
     x to podstawa
     n to wykladnik
 
-    przykładowe działanie rekurencyjne:
+    =====================================
+     przykładowe działanie rekurencyjne:
+    =====================================
     podajemy że chcemy podniesc 2(x) do potegi 3(n) to wtedy twoja funkcja powinna zadzialac tak:
     2 * rekurencja(2,3-1)
     2 * 2 * rekurencja(2,2-1)
@@ -54,9 +65,6 @@ using System.Threading.Tasks;
     i musimy dodac warunek w funkcji na poczatku że if (n == 0 ) zwroc np. 1 bo jak pomnozymy przez 1 
     to nie zmieni to wyniku prawda? Wiec ostatecznie bedzie tak:
     2 * 2 * 2 * 1 = 8 - dziala :0 :)
-
-    w razie gdyby byly nadal z tym problemy zerknij na rozwiazanie tutaj:
-    https://github.com/trolit/Programowanie/blob/master/potega_rekurencyjnie/potega_rekurencyjnie.cpp
 */
 namespace potega_rek_ite
 {

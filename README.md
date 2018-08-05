@@ -85,6 +85,8 @@ Chciałbym aby zmieniło się podejście do nauki programowania - uczyć zastoso
 		- wstawka o instrukcji warunkowej if
 	   6. Tablice cz1
 	   	- idea tablic na przykładach
+	   7. Tablice cz2
+	    - wspominka o tablicach wielowymiarowych
 	  15. Instrukcje warunkowe
 	  	- krótka(jednolinijkowa) instrukcja warunkowa i długa instrukcja warunkowa
 		- wstawka o instrukcji warunkowej if c.d
@@ -108,3 +110,8 @@ __Uwaga!!!__ Aby dostać się do zadania musisz kliknąć dwa razy lewym przycis
 #### Jeszcze raz, powodzenia i mam nadzieję, że przydadzą Ci się te zadania :) ####
 
 
+
+#### Aktualizacja - Sierpień 2018 ####
+- dodanie kolejnych kodów do poćwiczenia czytania ze zrozumieniem
+- poprawienie merytoryczne lekcji, dodanie paru rzeczy
+- dodanie folderu w którym będą znajdowały się przykładowe rozwiązania zadań.

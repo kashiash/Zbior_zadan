@@ -5,12 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    ==================================
+               Treść zadania:
+    ==================================
     Napisz w klasie fibonacci dwie metody, które będą nazywać się: fib_rekurencyjnie, fib_iteracyjnie. Program
     ma się zapytać w pierwszej kolejności użytkownika jak woli policzyć n-ty element ciągu czy rekurencyjnie
     czy iteracyjnie W zależności od wyboru program liczy n-ty element korzystając ze sposobu, który wybrał użytkownik. 
 
-    przykładowy wynik programu:
+    ==================================
+        przykładowy wynik programu:
+    ==================================
     Program: Witaj! Jak chcesz policzyć n-ty element ciągu Fibonacciego? 
     Program: wpisz 'rekurencyjnie' 
     Program: lub
@@ -20,19 +24,25 @@ using System.Threading.Tasks;
     Program: Który element ciągu chcesz policzyć?
     itd....
 
-    Utrwalisz sobie:
+    ==================================
+         Utrwalisz sobie/Poznasz:
+    ==================================
     - Co to jest ciąg Fibonacciego?
-    - Jak liczymy ciąg fibonacciego iteracyjnie a jak rekurencyjnie?  (pseudokod)
+    - Jak liczymy ciąg fibonacciego iteracyjnie a jak rekurencyjnie?  => poszukaj wzorku
     - Co to jest klasa, metoda?
     - Co to jest instrukcja warunkowa? Jak z niej korzystać? Jak działa?
     - Jakie wyróżniamy pętle? 
 */
 namespace fibb_rek_ite
 {
+    // klasa
+
     class Program
     {
         static void Main(string[] args)
         {
+            // odpowiedź
+
         }
     }
 }
