@@ -6,12 +6,16 @@ using System.Threading;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    ===============
+     Treść zadania:
+    ===============
     Napisz metode ktora obliczy potege liczby podanej przez uzytkownika. 
     Jesli potega bedzie  wieksza niz 30 to wypisze na ekran "Duza ta liczba".
     Jesli mniejsza to wypisze "Co tak malo?"
 
-    podpowiedz:
+    ===============
+      podpowiedz:
+    ===============
     aby obliczyc potege nalezy skorzystac z petli while lub for. Pętle są bardzo ciekawymi, fajnymi i użytecznymi
     narzędziami. Jak przysiadasz do programowania to musisz być świadom, że komputer nie jest w stanie zająć się
     wszystkim na raz... wyobraźmy sobie, że chcesz dowiedzieć się ile osób w książce ma na imie Jan? On nie jest 
@@ -20,7 +24,9 @@ using System.Threading.Tasks;
     wypisuje ją. Pętle są naprawdę spoko - tylko trzeba je zaakceptować i ich się nie bać a zobaczysz, że nie będziesz
     mógł bez nich żyć w świecie programowania.
 
+    =================================
     Utrwalisz sobie do tego zadania:
+    =================================
     - jak korzystać z pętli?
     - jak są zbudowane pętle, co znaczy wogóle pętla
     - co to jest instrukcja warunkowa? Jak ja napisać? Jak dziala?
@@ -152,6 +158,7 @@ using System.Threading.Tasks;
     Instrukcje warunkowe są szczególnie przydatne w pętlach gdy np. w określonym momencie
     coś chcemy zrobić... np. wyjść z pętli :)  
     */
+
 namespace potega
 {
     class Program
@@ -168,19 +175,19 @@ namespace potega
 
         static void Main(string[] args)
         {
-
-
-
-
-
-
             /* PRZYKLADOWE */
 
             // przykładowe wywołanie metody z jednoczesnym przypisaniem
             // tego co metoda zwraca do zmiennej liczba
             int liczba = Mojametoda();
+            // jako że defakto jesteśmy w klasie Program to nie potrzebujemy
+            // napisać Program.Mojametoda() aby się do tej metody dostać..
 
-            Console.WriteLine("liczba = " + liczba);        // wypisze 5
+            Console.WriteLine("liczba = " + liczba);        // wypisze 5 oczywiście
+
+
+
+
 
             /* Przykładowy nieskończony program:
              * Sprawdź go, jeżeli chcesz, tylko usuń
@@ -195,6 +202,9 @@ namespace potega
             }
 
             */
+
+
+
             Console.ReadLine();
         }
     }

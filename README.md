@@ -1,5 +1,4 @@
 # Repozytorium: "Zbiór zadań C#" #
-## i dla tych początkujących, i "utrwalających ##
 
 <p align="left">
 <b>Co znajdziesz w opisie:</b></br>
@@ -103,7 +102,7 @@ __Uwaga!!!__ Aby dostać się do zadania musisz kliknąć dwa razy lewym przycis
 <img align="left" src="https://image.ibb.co/nthMzo/pami.png" height="400">
 
 
-## PS: Bedę starał się w miare możliwości ulepszać zbiór aby był coraz lepszy ##
-## Jeszcze raz, powodzenia i mam nadzieję, że przydadzą Ci się te zadania :) ## 
+#### PS: Bedę starał się w miare możliwości ulepszać zbiór aby był coraz lepszy ####
+#### Jeszcze raz, powodzenia i mam nadzieję, że przydadzą Ci się te zadania :) ####
 
 

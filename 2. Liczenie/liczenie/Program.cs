@@ -26,11 +26,12 @@ using System.Threading.Tasks;
       // shhhh, obiekt, stwórz obiekt.
       >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+
     przykład działania twojego programu:
-    Podaj liczbe1: 2
+    Podaj liczbe1: 2.3
     Podaj liczbe2: 5
     Podaj liczbe3: 6
-    na ekranie ma pokazać: 2 + 5 + 6 = 13
+    na ekranie ma pokazać: 2,3 + 5 + 6 = 13,3
 
     #! #! #! UWAGA #! #! #! 
     przypomnijmy sobie:

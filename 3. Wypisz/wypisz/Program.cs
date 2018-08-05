@@ -14,7 +14,7 @@ using System.Threading.Tasks;
        Pawel
        Kowalski
 
-       to wypisze sie:
+       to wypisze sie na ekran:
        Twoje imie to: Pawel
        Nazwisko: Kowalski
 
@@ -24,11 +24,11 @@ using System.Threading.Tasks;
        - jak pobrać tekst, 
        - jak tworzyć klasę, 
 
-       =========================
-       Uwaga, w razie problemów:
-       =========================
-       Wypis tekstu opisaliśmy w częsci: 2.Liczenie
-       Tworzenie metody opisaliśmy w 1.Funkcje
+       ==============================================
+                  Uwaga, w razie problemów:
+       ==============================================
+       Wypis tekstu na ekran opisaliśmy w częsci => 2.Liczenie
+       Tworzenie metody opisaliśmy w części =>      1.Funkcje
 
        A my sobie przypomnijmy:
        Jak pobrać tekst?
@@ -37,11 +37,11 @@ using System.Threading.Tasks;
        jeżeli jednak ten tekst chcemy przechować, musielibyśmy go zapisać do 
        jakiejś zmiennej prawda?
 
-       przykładowo: string tekst = Console.ReadLine();
+       przykładowo: string tekst = Console.ReadLine();  
 
-       #############################
-       Wspomnijmy sobie przy okazji:
-       #############################
+       ==============================================
+              Wspomnijmy sobie przy okazji:
+       ==============================================
 
        a co jeśli chcielibyśmy pobrać liczbe a nie tekst? - zapytasz
        Bo np. potrzebujemy dodac ta liczbe do innej liczby???
@@ -74,7 +74,9 @@ namespace wypisz
             Console.WriteLine("Twoje imie to: " + a);
             Console.WriteLine("Twoje nazwisko to: " + b);
 
-            return 1;
+            return 1;  // zwróć cokolwiek bo
+                       // daliśmy metodę typu int
+                       // to nie możemy nic nie zwracać..
         }
 
     }
@@ -91,6 +93,7 @@ namespace wypisz
             // do przekazania     
 
             // stworzenie obiektu klasy Dane o nazwie wywolaj
+            // aby móc się odwołać do funkcji "Wypisz" 
             Dane wywolaj = new Dane();
 
             Console.WriteLine("Podaj imie:");
@@ -99,12 +102,17 @@ namespace wypisz
             Console.WriteLine("Podaj nazwisko:");
             string y = Console.ReadLine();
 
+            // nazwa_obiektu.nazwa_metod(argumenty)
             wywolaj.Wypisz(x, y);
 
             x = "drzewo";
             Console.WriteLine(x);
             // co wypisze x po skompilowaniu programu? 
             // imie? czy slowko "drzewo" ?
+
+
+
+
 
             Console.ReadKey();
         }
