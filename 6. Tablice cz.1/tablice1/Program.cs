@@ -5,21 +5,26 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * #aktualizacja (lipiec 2018)
+ * #aktualizacja (sierpień 2018)
  * Poniżej podjeśliśmy akcję rozjaśnienia sensu istnienia tablicy 
- * na życiowym przykładzie myślę
- * polecam się zapoznać przed przejściem do zadania :):):)
+ * na życiowym przykładzie myślę polecam się zapoznać przed przejściem do zadania :):):)
  
-    Treść zadania:
+    ========================
+          Treść zadania:
+    ========================
     Napisz metode w klasie wynik ktora wypelni tablice liczbami calkowitymi od 1 do ....20 (czyli tablica 20 elementowa).
     Nastepnie wyswietl ta tablice i pokaz w jakim indeksie jaka liczba sie znajduje.np. tablica[0] = 1;
 
-    przypomnienie:
+    ========================
+         przypomnienie:
+    ========================
     deklaracja tablicy wyglada tak:
     string[] nazwa = new string[5];
-    (to jest typu string tablica, która ma 6 miejsc bo od 0 do 5 jest 6!)
+    (to jest tablica typu string, która ma 5 miejsc, indeksując oczywiście od 0 czyli mamy o tak: 0 1 2 3 4)
 
-    Utrwalasz sobie dzięki temu zadaniu m.in:
+    ================================================
+       Utrwalasz sobie dzięki temu zadaniu m.in:
+    ================================================
     - jak stworzyc tablice
     - jak wpisac do niej elementy (podpowiedz: petla :D)
     - jak korzystac z indeksu w petli
@@ -27,11 +32,15 @@ using System.Threading.Tasks;
     - jak stworzyć metodę, klasę?
     - jak wywołać metodę?
 
+    ========================================================================
+                     TABLICE - OMÓWMY JE(głównie jednowymiarowe)
+    ========================================================================
+
     Weźmy liźnijmy trochę teorii - no co to takiego tablica? 
     obrazowo: tablica to takie pudło do którego możemy włożyć rzeczy, wyciągać je z niego, podmieniać, dodawać, robić coś 
     dla wszystkich rzeczy, wyszukać konkretną rzecz z pudła, sprawdzić czy jakaś rzecz jest w pudle a jeśli nie ma to
     np. dodać itd itp itp itd. Tablica ma wiele zastosowań ale generalnie robimy tablicę po to aby oszczędzić sobie 
-    nadmiernej pisaniny. Zobaczysz to poniżej. 
+    nadmiernej pisaniny. Zobaczysz to poniżej niedługo. 
 
     idźmy tym luźnym tropem.... przy okazji zauważ jak tablica dopełnia się z pętlami :) , myślę że w 
     poniższych przykladach to zauwazysz a jezeli nie to bedziemy cos tam kminic wspolnie jak to by
@@ -39,6 +48,7 @@ using System.Threading.Tasks;
 
     załóżmy, że masz pudło w którym zmieści się 5 książek, są to: Mrok, Rapapa, Czekala, Info, Patriota
     umieściłeś książki od spodu tak jak wypisaliśmy, czyli na samej górze jest książka "Patriota"
+
     => w C# byśmy zapisali: string[] pudlo = { "Patriota", "Info", "Czekala", "Rapapa", "Mrok" }
 
     wspominaliśmy, że oszczędza to pisaniny - wyobraź sobie jakby wyglądał powyższy przykład bez tablicy?
@@ -47,6 +57,7 @@ using System.Threading.Tasks;
     string tytul3 = "Czekala";
     string tytul4 = "Rapapa";
     string tytul5 = "Mrok";
+
     musielibyśmy tutaj przypisywać każdą książkę do oddzielnej zmiennej i na dodatke gdybyśmy np. teraz
     chcieli sprawdzić czy książką którą poda użytkownik jest w zbiorze to by to wyglądało np. tak:
 
@@ -58,13 +69,20 @@ using System.Threading.Tasks;
     {
 
     }
+    else if ( podana == tytul3 )
+    {
+
+    }
     itd...
 
     Widzisz, tutaj masz tylko 5 elementów - wyobraź sobie co by było dla 100 :) - tragednia nie? 
     Z ratunkiem przybywa TABLICA :) ale dobra, koniec wywodu - wróćmy do przykładów z życia :D
 
+    ================================================
+           PRZEJDŹMY DO PRZYKŁADÓW Z TABLICĄ
+    ================================================
 
-    1) chcesz wyjąć książkę Rapapa - jak to zrobisz w życiu?
+    1) chcesz wyjąć książkę Rapapa - jak to zrobisz w życiu???
     Otworzysz pudło, patrzysz czy górna książka to Rapapa? Nie? to zdejmujesz ksiazke i zagladasz dalej.
     Czy nastepna ksiazka to Rapapa? Nie? zdejmujesz kolejna ksiazke i zagladasz dalej
     Czy nastepna ksiazka to Rapapa? Tak! To usmiechasz sie ze znalazles i wyciagasz ja zeby przeczytac :) 
@@ -74,11 +92,11 @@ using System.Threading.Tasks;
 
     for (int i = 0; i < pudlo.Length; i++)
     {
-        if (pudlo[i] == "Rapapa")
+        if (pudlo[i] == "Rapapa")                           // czytamy: jeżeli aktualne miejsce które wskazuje i na pudle jest takie samo jak tekst "Rapapa"
         {
             string reka = pudlo[i];                         // wyjmujemy ksiazke
             Console.WriteLine("Znalazlem ksiazke!!" + reka);
-            break;                                          // jak znalazłem to wychodze z pętli
+            break;                                          // jak znalazłem to wychodze z pętli(polecenie break - wychodzi z pętli)
         }
     }
 
@@ -92,6 +110,8 @@ using System.Threading.Tasks;
     string[] pudlo = { "Patriota", "Info", "Czekala", "Rapapa", "Mrok" }
 
     pudlo[0] = "Dudu";  // wlozylismy za Patriota ksiazke Dudu do pudla :)
+                        // i oczywiście książke Patriota wyjęliśmy, czyli
+                        // już jej nie ma w naszym pudełku(tablicy)
 
 
     mam nadzieje, że troche Ci to pokazało jak taka tablica funkcjonuje i jaka ona jest zyciowa,
@@ -99,8 +119,7 @@ using System.Threading.Tasks;
     sobie ja jak takie pudelko :)
 
     jako, że podaliśmy tyle pełynch przykładów to nie będę już tam wrzucał do bloku programu, w razie
-    jak chcesz przetestować je do smialo skopiuj i sprawdz jak dzialaja :) 
-
+    jak chcesz przetestować je to smialo skopiuj i sprawdz jak dzialaja :)
     */
 namespace tablice1
 {

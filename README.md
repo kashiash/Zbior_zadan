@@ -15,8 +15,10 @@ bo widzisz, jeżeli np. w poleceniu trafia się załóżmy "napisz program któr
 jeżeli tego nie wiesz to pewnie pójdziesz tzw. "wygooglować" pisząc coś typu: C# jak wczytać zmienną od użytkownika albo
 może C# how to get value from user albo inaczej..i jeżeli Ci zależy na programowaniu to szukając kodu będziesz sobie efektywnie utrwalać
 swoją wiedzę! To jest naprawdę najlepszy i najefektywniejszy sposób, żeby dobrze przysiąść do programowania i nauczyć się go właściwie,
-który __polecam__. Oczywiście postaram się dołączyć podpowiedzi od siebie, aby nakierunkować Cię na to jak dany aspekt działa. :) 
-Aha, opisy znajdziesz otwierając projekty na samej górze. Czasami postaram się dodać do funkcji main jakieś przykłady :) 
+który __polecam__. Oczywiście postaram się dołączyć podpowiedzi od siebie, aby nakierunkować Cię na to jak dany aspekt działa. 
+Opisy znajdziesz po otwarciu projektów na samej górze. Czasami postaram się dodać do funkcji main jakieś przykłady :) 
+No i jeszcze jedno, jak coś to będzie dostępny całościowy folder z propozycją rozwiązania zadań
+(ale wiedz, że nie są to jedyne sposoby i możesz spróbować napisać inaczej swój program - bez problemu)
 
 
 __Jeżeli chcesz dobrze programować__ - __praktyka,praktyka,praktyka,praktyka__ i jeszcze raz praktyka. 
