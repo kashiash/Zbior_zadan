@@ -12,7 +12,7 @@ using System.Threading.Tasks;
     1. Stwórz klasę wybór.
     2. Stwórz w niej konstruktor domyślny, który będzie publiczny.
     3. Stwórz metodę decyzja, która przyjmie jeden argument (czyli wybór użytkownika). 
-       A więc może to wyglądać np. tak: public int decyzja(int wybor)
+       A więc może to wyglądać np. tak: public int Decyzja(int wybor)
        Twoja metoda ma zawierać instrukcję switch, której pseudokod jest następujący:
 
     switch(wybor)
@@ -60,8 +60,8 @@ using System.Threading.Tasks;
     Wiadomo, że w praktyce lepiej to się zapamięta niż w teorii, która niejako musiała być wstępem do tego.
     no i PS: default znaczy domyślny blok, wykona się jeśli nic z opcji powyżej nie pasowało do "caseów".
 
-    4. Stwórz obiekt za pomocą, którego będziesz mógł dostać się do metody lub uczyń 
-       ją metodą statyczną!
+    4. Stwórz obiekt za pomocą, którego będziesz mógł dostać się do metody.
+    lub uczyń swoją metodę statyczną. 
     5. Zapytaj w głównej części bloku użytkownika, którą opcję chce wybrać (1, 2, 3 lub 4 ?)
     6. Wywołaj metodę decyzja, która przyjmuje argument wybór!
     7. Sprawdź czy działa.
@@ -72,11 +72,40 @@ using System.Threading.Tasks;
 
 namespace switch_1
 {
+    class Wybor
+    {
+        public Wybor() { }
+
+        public static void Decyzja(int wybor)
+        {
+            switch(wybor)
+            {
+                case 1:
+                    Console.WriteLine("Wybrales opcje1");
+                    break;
+                case 2:
+                    Console.WriteLine("Wybrales opcje2");
+                    break;
+                case 3:
+                    Console.WriteLine("Wybrales opcje3");
+                    break;
+                case 4:
+                    Console.WriteLine("Wybrales opcje4");
+                    break;
+                default:
+                    Console.WriteLine("nic nie wybrano");
+                    break;
+            }
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Podaj liczbe (najlepiej od 1 - 4)");
+            int decyzja = Convert.ToInt32(Console.ReadLine());
+            Wybor.Decyzja(decyzja);
             Console.ReadKey();
         }
     }

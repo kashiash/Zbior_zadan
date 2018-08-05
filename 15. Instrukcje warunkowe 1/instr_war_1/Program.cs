@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 /*
  * Instrukcje warunkowe są równie proste co pętle, poświęć im troszkę czasu :)
- * no i oczywiście bardzo przydatne... :) i załapiesz - na 100% 
- * poniżej mini wstęp z instrukcji warunkowych więc możesz tam się zapoznać jak
- * masz ochotę
+ * no i oczywiście bardzo przydatne... :) załapiesz je bez problemu!
+ * pod zadaniem mini wstęp z instrukcji warunkowych więc możesz tam się zapoznać jak
+ * masz ochotę. Miłej nauki!
  
-    Treść zadania:
+    ====================================
+                Treść zadania:
+    ====================================
     1. Stwórz klasę decyzje.
     2. Stwórz w niej metodę porownywarka. 
     3. Twoja metoda musi być zbudowana według następującego pseudokodu:

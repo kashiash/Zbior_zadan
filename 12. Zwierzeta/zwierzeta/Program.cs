@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    ============================
+           Treść zadania:
+    ============================
     1. Stwórz klasę Zwierzeta
     2. Napisz konstruktor domyślny, ustaw go na prywatny.
     3. Napisz konstruktor statyczny bądź parametryczny(publiczny), aby móc jakoś tworzyć obiekty...

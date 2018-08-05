@@ -5,13 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    =====================================
+                Treść zadania:
+    =====================================
     W klasie biblioteka_matematyki napisz metode obwod_kola, metode pole_kola i metode obwod_promien_kola, ktore
     policza dla uzytkownika obwod lub pole dla podanego promienia. Pamietaj, że Twój program ma się najpierw
     zapytać użytkownika co chce policzyć. Może wybrać sam obwód, samo pole lub i pole i obwód.
     Następnie ma wywołać odpowiednią metodę.
 
-    przykład działania programu:
+    =====================================
+         przykład działania programu:
+    =====================================
     Kompilator: Witaj w programie który liczy obwód i promień koła. Najpierw zdecyduj co chcesz policzyć?
     1. Obwód koła
     2. Pole koła.
