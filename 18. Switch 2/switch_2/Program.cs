@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    =========================
+          Treść zadania:
+    =========================
     Jak już poznałeś/poznałaś zasadę działania instrukcji switch, wykorzystamy ją teraz to ciut większego programu.
 
     1. Stwórz klasę blok_decyzyjny.
@@ -58,7 +60,9 @@ using System.Threading.Tasks;
 
     9. Przetestuj czy wszystkie funkcje działają prawidłowo.
 
-    Utrwalisz sobie:
+    ==================================================
+                    Utrwalisz sobie:
+    ==================================================
     - wszystko o instrukcji switch (jak działa, że od string nie możesz pisać switch, co to default, co to case itd...)
     - Co to takiego metoda, klasa, obiekt?
     - Co to takiego break?
@@ -71,6 +75,8 @@ namespace switch_2
     {
         static void Main(string[] args)
         {
+
+            Console.ReadLine();
         }
     }
 }

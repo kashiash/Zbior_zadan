@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    ==========================================================================
+                                Treść zadania:
+    ==========================================================================
     Witaj! Złożone instrukcje if, nie są Ci już straszne, wiesz już na czym polega taki if, kiedy się wykonuje dany moment
     co to jest else itd... Wiesz, że if jest dla nas bardzo przyjemny bo możemy konstruować np. menu wyboru ze  
     względu na typ danych string (czego switch nie może). 
@@ -14,25 +16,14 @@ using System.Threading.Tasks;
     stworzyć interaktywne menu dla użytkownika. :) 
 
     Zadanie:
-    1. Stwórz klasę warunkowa  :) 
+    1. Stwórz klasę Warunkowa  :) 
 
-    2. Stwórz parametry:
+    2. Stwórz parametry(cechy):
     public string imie;
     public string nazwisko;
     public int ocena;
 
-    3. Stwórz metodę selekcja_uczniow(int ocena_studenta)           </ zastanów się jaki typ danych jej dać? 
-                                                                    PS: czy potrzebujesz zwracac zmienna? NIE, ale 
-                                                                    chcesz skorzystac z argumentu wiec musimy cos
-                                                                    dac. Zastosuj trik, na swoją korzyść. Pamiętasz
-                                                                    jak w metodach mówiłem, że aby przechować 
-                                                                    zwracaną wartość musimy przepisać to do zmiennej 
-                                                                    lub odrazu wyśwetlić? Teraz odwróć sytuację. Wręcz
-                                                                    chcemy żeby wynik nam uciekł! Zatem... nigdzie
-                                                                    go nie przypiszemy! Wystarczy dać 
-                                                                    return .... ? ?? :) Zastanów się:) 
-                                                                    Odpowiedź nie jest taka trudna jak Ci mogłoby się
-                                                                    wydawać :)
+    3. Stwórz metodę Selekcja_uczniow(int ocena_studenta, string imie, string nazwisko)
 
     Twoja metoda będzie wyglądała mniej więcej tak:
 
@@ -60,7 +51,9 @@ using System.Threading.Tasks;
 
     6. Przetestuj działanie programu.
 
-    Wniosek programu:
+    ==========================================================================
+                                  Wniosek programu:
+    ==========================================================================
     zauważ jak bardzo wygodne jest takie ustawianie warunków. Możemy je też wrzucać do pętli dzięki czemu
     takie "ify" nabierają wielkieeego znaczenia szczególnie dla TABLIC!. Bardzo warto jest opanować ta
     instrukcję do maksimum! W tym przypadku nie musimy sami selekcjonować kto do jakiej grupy studentów,
@@ -78,8 +71,10 @@ using System.Threading.Tasks;
     Więc widzisz teraz różnicę między pętlami, a instrukcjami warunkowymi? Myślę, że tak :).
     Nie myl tych pojęć! :) 
 
-
-    Zatem, zapamiętaj dla siebie i własnego spokoju:
+    
+    ==========================================================================
+                     Zatem, zapamiętaj dla siebie dla siebie:
+    ==========================================================================
     - co to takiego instrukcja warunkowa?
     - jak korzystamy z instrukcji warunkowych?
     - co oznacza w instrukcji warunkowej else?
@@ -89,7 +84,6 @@ using System.Threading.Tasks;
       żaden nie będzie prawdziwy to wykona się else. Jeśli nadal tego nie kumasz to wracaj do ćwiczenia i potestuj. 
       Stwórz kolejne obiekty, nadaj im różne oceny. Spróbuj przewidzieć co się wypisze na ekran itd :). To jest bardzo
       ważne! BARDZO WAŻNE!
-
 */
 namespace if_2
 {
@@ -97,6 +91,8 @@ namespace if_2
     {
         static void Main(string[] args)
         {
+
+            Console.ReadLine();
         }
     }
 }

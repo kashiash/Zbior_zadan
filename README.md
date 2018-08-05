@@ -46,7 +46,7 @@ do metod, które będzie trzeba stworzyć w kolejnych zadaniach.
 
 __Powodzenia w rozwiązywaniu zadań!__
 
-__Pamiętaj, nie poddawaj się, próbuj rozwiązać zadanie, prędzej czy później Ci się uda - __na bank__ :)
+Pamiętaj - nie poddawaj się, próbuj rozwiązać zadanie, prędzej czy później Ci się uda - __na bank__ :)
 
 #### Post Scriptum1: ####
 Pamiętaj, że jeżeli te "podstawy" w tym zbiorze zrozumiesz to bez problemu poradzisz sobie i w innych językach programowania, np. gdy będziesz

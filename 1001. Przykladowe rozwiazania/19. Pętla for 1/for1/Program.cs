@@ -29,8 +29,7 @@ using System.Threading.Tasks;
     pseudokod metody wypisz_neg:
     wypisz_neg(int indeks)
     {
-        wypisz na ekran 'ERROR-[numer indeksu na którym pojawił się błąd]'
-        break;  
+        wypisz na ekran 'ERROR' 
     }
 
     =========================
@@ -60,11 +59,58 @@ using System.Threading.Tasks;
 */
 namespace for1
 {
+    class Petle
+    {
+        // publiczny konstruktor domyślny
+        public Petle() { }
+
+        public void ForOperacyjne(int liczba)
+        {
+            for (liczba *= 2; liczba <= 250; liczba *= 2)
+            {
+                if(liczba >= 30 || liczba % 2 == 0)
+                {
+                    WypiszPoz();
+                    Console.WriteLine("Podaj kolejna liczbe: ");
+                    liczba = Convert.ToInt32(Console.ReadLine());
+                }
+                else
+                {
+                    WypiszNeg();
+                    break;
+                }
+            }
+        }
+
+        private void WypiszPoz()
+        {
+            Console.WriteLine("Znaleziono dopasowanie liczby!");
+        }
+
+        private void WypiszNeg()
+        {
+            Console.WriteLine("BLAD!");
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            // tworzenie obiektu
+            Petle obiekt = new Petle();
 
+            Console.WriteLine("Podaj liczbe:");
+            // konwersja podanego łańcucha do Int
+            int liczba = Convert.ToInt32(Console.ReadLine());
+
+            // wywołanie metody z klasy Petle
+            obiekt.ForOperacyjne(liczba);
+
+
+            // PS: spróbuj rozgryźć jak to się dzieje, że metoda WypiszNeg()
+            // nie uruchamia się , a może się uruchomi dla jakiegoś określonego
+            // zbioru liczb? Pozostawiam to do samodzielnego rozgryzienia.
 
             Console.ReadLine();
         }
