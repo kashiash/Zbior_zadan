@@ -5,36 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    =====================================
-              Treść zadania:
-    =====================================
-    Skoro jesteś już nieco bardziej w pętli for, przejdźmy do kolejnego przykładu aby ją utrwalić.
-    Zanim jednak przejdziemy do zadania, wskazówki godne zapamiętania = )
-    
-    1) Zauważ, że zawsze kiedy pracujemy na tablicy to aby ją wypisać, wpisać itd.. to korzystamy 
-    z pętli for. Zapewnia ogromną wygodę w działaniu na tablicach! 
-
-    2) Wiesz, że, aby sprawdzić jakiś warunek (tylko raz) używamy instrukcji warunkowej if prawda!?
-    Ale.... czy wiesz, że aby sprawdzić jakiś warunek po np. wszystkich elementach tablicy albo dla
-    kilku liczb musimy użyć również pętli? Tak! W pętli musimy umieszczać wtedy naszą instrukcję
-    warunkową! Ale pewnie to wiesz.. i żadne to odkrycie.
-
-    3) Pętla for może zostać rozbudowana o kolejne deklaracje, warunki, zwiększania/zmniejszenia
-    (ale tego dowiesz się potem)
-
-    4) Jeśli w pętli for umieścimy kod który pozwoli od użytkownika pobrać zmienną, to uwaga! Po 
-    każdym jednym obrocie pętli program będzie prosił o podanie za tą zmienną wartość. Czyż to
-    nie jest piękne? Dzięki czemu możemy stworzyć nasz program w sposób interaktywny! Program
-    interaktywny! Czyli taki,  w którym użytkownik ma MENU i sobie decyduje co chce zrobić: ) 
-    ALLEEE Fajnieee :) ale nie tylko...
-    
-    to fajna ta pętla for, nie?
-    tyle zalet, i wygodna w pisaniu :) 
-
-    ==========================================================================
-                to przećwiczmy teraz pętle for z warunkami...
-    ==========================================================================
-
+    ###########################################################
+                            Treść zadania:
+    ###########################################################
     1. Stwórz klasę CwiczenieFOR
     2. Stworz w niej metode petla_for_z_ifami()    <= przypomnij sobie co znaczy (), 
     psss: To jest podpowiedź co zwracać ma funkcja!
@@ -86,24 +59,41 @@ using System.Threading.Tasks;
     że program skończył pracę! Tylko UWAGA! Zastanów się gdzie umieścić tą linijkę? Pamiętaj,
     że chcemy ją na ekranie zobaczyć tylko raz!!!!
 
-    ==========================================================================
-    no i...
-    przetestuj swój program czy działa zgodnie z treścią zadania.
-
-    jednak pamiętaj aby testować kod co jakiś fragment kodu jak ukończysz
-    żeby w razie pomyłki mieć mniej kodu do sprawdzenia gdzie popełniliśmy
-    błąd :)
-    ==========================================================================
+    odp. wystarczy że ystawimy na starcie i na 1, ograniczymy warunkiem i <= 3 pętlę
+    i dodamy inkrementację i czyli i++. W środku pętli możemy napisać, że jeśli i == 3 
+    to wtedy wypisuje na ekran informacje.
 */
 
 namespace for_2
 {
+    class CwiczenieFor
+    {
+        public void PetlaForZIf()
+        {
+            for(int i = 0; i < 1; )
+            {
+                Console.WriteLine("Podaj liczbe: ");
+                int liczba = Convert.ToInt32(Console.ReadLine());
+
+                if (liczba > 100) Console.WriteLine("Duza ta liczba!");
+                else if (liczba < 100 && liczba > 80) Console.WriteLine("W miare dobra liczba!");
+                else if (liczba > 40 && liczba < 50) Console.WriteLine("Nie podoba mi sie ta liczba!");
+                else Console.WriteLine("Nie znam takiej liczby");
+            }
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            // tworzymy obiekt
+            CwiczenieFor obiekt = new CwiczenieFor();
 
-		    Console.ReadLine();
+            // wywołujemy metodę
+            obiekt.PetlaForZIf();
+
+            Console.ReadLine();
         }
     }
 }

@@ -50,10 +50,50 @@ using System.Threading.Tasks;
 
 namespace iloczyn_modify
 {
+    class Iloczyn
+    {
+        public static void MnozenieMod(int[] tablica, int zlicz)
+        {
+            int wynik = 1;
+
+            for(int i = 0; i < zlicz; i++)
+            {
+                Console.WriteLine("tablica[" + i + "]=" + tablica[i]);
+                wynik = wynik * tablica[i];
+            }
+
+            Console.WriteLine("Wynik mnożenia podanych liczb: " + wynik);
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            int[] tablicaLiczb = new int[100];
+
+            int licznik = 0;
+
+            Console.WriteLine("Iloczyn modyfikowalny");
+            Console.WriteLine("Podawaj liczby(max 100) potwierdzając każdą przyciskiem ENTER");
+            Console.WriteLine("Uwaga: Aby skończyć wpisywanie liczb wpisz 0 i potwierdź ENTER");
+            // wiemy że cokolwiek pomnożone przez 0 daje 0 więc po co mielibyśmy mnożyć kilkanaście
+            // liczb po to żeby pomnożyć je przez 0 i otrzymać wynik końcowy 0 ? - możemy zatem
+            // skorzystać z 0 jako "wyjścia" z trybu wpisywania liczb
+
+            for(int i = 0; i < tablicaLiczb.Length; i++)
+            {
+                int liczba = Convert.ToInt32(Console.ReadLine());
+
+                if(liczba == 0)
+                {
+                    Iloczyn.MnozenieMod(tablicaLiczb, licznik);
+                    break;
+                }
+
+                tablicaLiczb[i] = liczba;
+                licznik++;
+            }
 
             Console.ReadLine();
         }

@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    =============================================
+                    Treść zadania:
+    =============================================
     Jako, że poznałeś/poznałaś już działanie pętli for, oraz działanie metod n możemy
     przejść do następnego poziomu. Tutaj również będziesz musiała/musiał wykorzystać tablicę i indeksy, które
     także już poznałeś/poznałaś. 
@@ -37,7 +39,9 @@ using System.Threading.Tasks;
     6. Wyświetl wynik sumowania. Możesz dorzucić metodę void, która wypisze go, bądź skorzystać z klasycznego
     Console.Writeline... 
 
-    Utrwalisz sobie:
+    =============================================
+                 Utrwalisz sobie:
+    =============================================
     - wszystko o tablicach jednowymiarowych
     - co to jest indeks w tablicy
     - jak działa pętla for, jak ją budujemy
@@ -50,6 +54,10 @@ namespace sum_modi
     {
         static void Main(string[] args)
         {
+
+            // jeżeli wykonałeś bez problemu Iloczyn modyfikowalny, bez problemu poradzisz sobie z sumą modyfikowalną
+            // :)
+            Console.ReadLine();
         }
     }
 }
