@@ -5,12 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    ===================================================
+                        Treść zadania:
+    ===================================================
     Pewnie znasz już bardzo dobrze pętle, instrukcje warunkowe to możemy przejść do takiego fajniejszego 
     zadania. Pod jakim względem fajniejszego? A pod takim, że przećwiczysz sobie właśnie te rzeczy 
     które wymieniłem na początku. 
 
-    Krótkie notki przypominające rzeczy ważne:
+    ===================================================
+        Krótkie notki przypominające rzeczy ważne:
+    ===================================================
 
     Zapewne pamiętasz a może nie, jak wspominałem, że pętla nieskończona jest wygodna dla nas gdy chcemy
     stworzyć "menu" użytkownika, które nie wyłącza się po jednej operacji. Naszym zadanie będzie właśnie
@@ -28,7 +32,9 @@ using System.Threading.Tasks;
     którą opcje chce wybrać...
     Pięknie nie?
 
-    przykładowe menu:
+    ===================================================
+                     przykładowe menu:
+    ===================================================
     dodaj
     zsumuj
     wynik
@@ -60,6 +66,8 @@ using System.Threading.Tasks;
     3. Stwórz obiekt a następnie wywołaj metodę wybor(). 
     4. Przetestuj wszystkie opcje. 
 
+    Zadanie jest do samodzielnego rozwiązania dla Ciebie :)
+
     Jeśli czujesz, że to było za proste dla Ciebie to zabierz się za zadania ze zbioru z książki, 
     poszukaj jakiegoś bo pełno jest tego od programowania :). Albo też zmodyfikuj ten program
     aby robił poważniejsze ciekawsze rzeczy. Możesz w ramach przećwiczenia o! Stwórz metody w 
@@ -73,6 +81,7 @@ using System.Threading.Tasks;
     nie pomoże zrozumieć programowania a jedynie analizowanie tego kodu jak działa, ręcznie :)
 
     Powodzenia!
+    Mam nadzieję, że ten zbiór coś Ci pomógł :)
 */
 namespace if_3_test
 {
@@ -80,6 +89,8 @@ namespace if_3_test
     {
         static void Main(string[] args)
         {
+
+            Console.ReadLine();
         }
     }
 }
