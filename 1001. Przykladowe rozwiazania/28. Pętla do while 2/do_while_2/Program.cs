@@ -15,6 +15,7 @@ using System.Threading.Tasks;
     nasz kod, bierzemy się za robotę. :D
 
     1. Stwórz klasę Konsola.
+
     2. Stwórz metodę, Do_while_dwa()
 
     Twoja metoda ma być zbudowana w taki sposób:
@@ -35,6 +36,7 @@ using System.Threading.Tasks;
 
     4. Wywołaj metodę i sprawdź jak działa pętla do...while.
 
+
     Jeśli chcesz, zmodyfikuj swój program aby troszkę bardziej skomplikowane zadania wykonywał. 
     Wymyśl coś sama :). 
 
@@ -44,11 +46,39 @@ using System.Threading.Tasks;
 */
 namespace do_while_2
 {
+    class Konsola
+    {
+        public void DoWhileDwa()
+        {
+            int licznik = 1;
+
+            Console.WriteLine("Podaj napis: ");
+            Console.WriteLine("Aby zakończyć napisz koniec");
+            string napis = Console.ReadLine();
+
+            do
+            {
+                Console.WriteLine(+licznik + " " + napis);
+                licznik++;
+
+                Console.WriteLine("Podaj kolejny napis lub koniec aby zakończyć");
+                napis = Console.ReadLine();
+            }
+            while (napis != "koniec");
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            // tworzymy obiekt
+            Konsola obiekt = new Konsola();
 
+            // wywołujemy naszą metodę
+            obiekt.DoWhileDwa();
+
+            Console.WriteLine("\nwyszedles z petli do..while\nnacisnij dowolny klawisz aby wylaczyc program");
             Console.ReadLine();
         }
     }

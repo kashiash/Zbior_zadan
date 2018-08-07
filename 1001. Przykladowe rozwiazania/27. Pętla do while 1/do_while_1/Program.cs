@@ -45,15 +45,30 @@ namespace do_while_1
 {
     class Testowanie
     {
+        public void Zrobgdy()
+        {
+            // sprawdź raz ustawiając tutaj x na 0 a raz x na 1 jaki będzie 
+            // efekt działania programu i wyciągnij odpowiednie wnioski z 
+            // tej pętli:) 
+            int x = 0;
 
+            do
+            {
+                Console.WriteLine("Ja sie wykonuje w bloku instrukcji. (to gdzie teraz pisze w klamarach");
+
+                Console.WriteLine("Ej ja tez jestem nadal w bloku instrukcji");
+            }
+            while (x != 0);
+        }
     }
 
     class Program
     {
         static void Main(string[] args)
         {
+            Testowanie obiekt = new Testowanie();
 
-
+            obiekt.Zrobgdy();
 
             Console.ReadLine();
         }
