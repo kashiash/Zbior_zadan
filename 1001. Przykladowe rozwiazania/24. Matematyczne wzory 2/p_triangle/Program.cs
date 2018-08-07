@@ -10,13 +10,11 @@ using System.Threading.Tasks;
     ============================================================================
     Wykorzystajmy dotychczasową wiedzę do stworzenia matematycznego programu 2!
 
-    A więc...
     Stwórz klasę Matematyka a w niej metodę Policz_pole(int a, int h)         
     Metoda Policz_pole ma liczyć pole trójkąta z danych, które poda użytkownik. 
     Ma następnie wyświetlić użytkownikowi wynik. Sposób wykonania tego programu
     jest dowolny prócz tego co zostało nałożone wyżej. Powodzenia.
 
-    No i mała uwaga:
     Chcemy by Twój program ma działać cały czas!
     To znaczy, po obliczeniu jednego
     pola znowu pyta użytkownika o dane
@@ -24,24 +22,48 @@ using System.Threading.Tasks;
     nie chce już podawać kolejnego pola to żeby
     była możliwość wyjścia z niej(to wykorystamy
     instrukcję break w instrukcji warunkowej if) 
-
-    #podpowiedź: trzeba wykorzystać pętlę, może for bez zwiększenia? 
-    albo hmmm... pętla while nieskończona? Sposób wiele :) 
-    Wybierz swój albo zaproponowany :)
-
-    przypomnijmy sobie, że instrukcja break może zostać użyta tylko w pętli
-    (tak jak instrukcja continue)
-    - instrukcja break powoduje natychmiastowe wyjście z pętli
-    - instrukcja continue powoduje "skipnięcie"(pominięcie) kodu który znajduje się pod instrukcją continue
 */
 
 namespace p_triangle
 {
+    class Matematyka
+    {
+        public static void PoliczPole(int a, int h)
+        {
+            int wynik = 0;
+
+            for (int i = 0; i < 1;)
+            {
+                wynik = (a * h) / 2;
+                Console.WriteLine("Twoje pole: " + wynik);
+
+                Console.WriteLine("Podaj bok albo wyjdź z gry(wpisz wtedy 0)");
+                a = Convert.ToInt32(Console.ReadLine());
+                if(a == 0)
+                {
+                    break;
+                }
+
+                Console.WriteLine("Podaj wysokość: ");
+                h = Convert.ToInt32(Console.ReadLine());
+            }
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Obliczanie pola trójkąta(który nie jest równoboczny)");
+            Console.WriteLine("Podaj bok: ");
+            int bok = Convert.ToInt32(Console.ReadLine());
 
+            Console.WriteLine("Podaj wysokosc: ");
+            int wys = Convert.ToInt32(Console.ReadLine());
+
+            Matematyka.PoliczPole(bok, wys);
+
+            Console.WriteLine("\n\nNacisnij dowolny klawisz aby wyjsc...");
             Console.ReadLine();
         }
     }

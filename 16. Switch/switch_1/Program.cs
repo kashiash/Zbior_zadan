@@ -41,18 +41,15 @@ using System.Threading.Tasks;
     =======================
             Wniosek:
     =======================
-    Widzisz, poszczególne case oznaczają 'opcje'. W zależności co będzie pod zmienną wybor aktywuje się odpowiednia
-    gałąź bloku switch(wybor), np. powiedzmy wybor = 3, to switch przejdzie do case 3. Zapamietaj, że switch działa tylko i 
-    wyłącznie dla zmiennych, które są liczbami lub pojedynczymi znakami (czyli char)! Czyli wybor NIE MOŻE być tutaj
-    typu string! Po każdym 'case' zauważ, że jest instrukcja break. Co ona robi? Odpowiedź jest prosta: zapobiega
-    aby case'y poniżej tego, który użytkownik wybierze nie wykonały się. Bo widzisz, gdybyś nie dała 
+    Po każdym 'case' zauważ, że jest instrukcja break. Co ona robi? Odpowiedź jest prosta: zapobiega
+    aby case'y poniżej tego, który użytkownik wybierze nie wykonały się. Bo widzisz, gdybyś nie dał(a) 
     (załóżmy w tym przykładzie) breaka po każdym case, a użytkownik wybierze opcje 1 to na ekran pokaże się wszystko
     czyli: 
 
     Wybrales opcje 1 
     Wybrales opcje 2
     Wybrales opcje 3
-    NIc nie wybrales
+    Nic nie wybrales
 
     Najlepiej jak napiszesz już cały program i sprawdzisz to samemu usuwając break z każdego case i uruchamiając program. 
     Wtedy utrwalisz sobie w praktyce po co nam w switch taka instrukcja break. 

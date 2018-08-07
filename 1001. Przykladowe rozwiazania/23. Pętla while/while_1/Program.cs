@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*  Informacja:
- *  Omówienie pętli while znajdziesz tutaj, ale również i w zadaniu 5 Tablice cz1 troszkę napomknąłem o nich :)
-
+/*  
     =================================
               Treść zadania:
     =================================
@@ -16,17 +14,6 @@ using System.Threading.Tasks;
     fałszywy to po prostu omijamy pętlę albo nie wykonujemy kolejny raz. W ranach informacji: potem
     zapoznasz się z pętlą, która najpierw wykonuje instrukcje a potem sprawdza warunek (może wiesz już jaka)
     ale to potem, żeby nie mącić. :)
-
-    budowa pętli while nie należy do skomplikowanych, po prostu mamy:
-
-    while( warunek )
-    {
-        instrukcje...
-        instrukcje....
-    }
-
-    ale to pewnie już wiesz, tylko masz problem z zastosowaniem tego. :) 
-    tak naprawdę to jest wszystko co można powiedzieć, możemy chyba przejść do ćwiczenia.....
 
     1. Stwórz klasę Testy
     2. Stwórz metodę Petla()   
@@ -45,6 +32,8 @@ using System.Threading.Tasks;
     Wszystkie mniejsze elementy wypisane poprawnie!
 
     4. Stwórz obiekt w dowolny sposób, a następnie wywołaj metodę petla().
+    (lub uczyń metodę Petla statyczna... tak też można)
+
     5. Przetestuj ją.
 
 
@@ -66,23 +55,44 @@ using System.Threading.Tasks;
     4
     5
     6
-
-    ==================================================================
-    A więc do zapamiętania masz :
-    - jak jest zbudowana pętla while
-    - jak działa petla while
-    ==================================================================
-    
-    PS: Nikt Ci nie powie gdzie masz jakiej pętli użyć, to tylko i wyłączenie zależy od Twojego
-    doświadczenia programistycznego i pomysłowości. :) Po prostu trzeba pomyśleć i przewidzieć
-    jak chcesz żeby Twój kod działał.
 */
 namespace while_1
 {
+    class Testy
+    {
+        public static void Petla()
+        {
+            Console.WriteLine("Podaj liczbe: ");
+            int liczba = Convert.ToInt32(Console.ReadLine());
+            int kopia = liczba;
+            int start = 0;
+
+            // robimy nową linię
+            Console.WriteLine();
+
+            while(liczba >= 0)
+            {
+                Console.WriteLine(liczba);
+                liczba--;
+            }
+
+            Console.WriteLine("\n\nLiczby na odwrót");
+
+            while(start <= kopia)
+            {
+                Console.WriteLine(start);
+                start++;
+            }
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            // wywolujemy metode statyczna dzieki czemu nie musimy
+            // obiektu tworzyć
+            Testy.Petla();
 
             Console.ReadLine();
         }

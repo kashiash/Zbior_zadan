@@ -5,20 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
-    Treść zadania:
+    =============================================
+                   Treść zadania:
+    =============================================
     Słowem wstępu. Za nami dwa ćwiczenia z instrukcji switch. Pewnie wiesz do czego służy i jak ją budować no
     i co to w ogóle takiego jest ta instrukcja switch...
-    Ale, nawet jeśli teraz czujesz takie zniesmaczenie, bo TY to przecież umiesz, to weź sobie przypomnij mimo
-    iż wiesz w 100% jak to robić, co to jest itd....
-    To nie boli, a pomoże utrwalić Twoją wiedzę, w szczególności te reguły, które w pewien sposób ograniczają
-    instrukcje z których chcemy skorzystać. A propo.....
+    Ale, nawet jeśli teraz czujesz takie zniesmaczenie, że wciskam Ci kolejne zadanie ze switch i TY  już to 
+    przecież umiesz, to weź sobie przypomnij mimo iż wiesz w 100% jak to robić, co to jest itd....
+    To nie boli - mogę zapewnić, a pomoże utrwalić Twoją wiedzę, w szczególności te reguły, które w
+    pewien sposób ograniczają instrukcje z których chcemy skorzystać. A propo.....
 
-    Czy pamiętasz może jakiego typu zmiennej nie możemy dawać w instrukcji switch(zmienna)? 
-    odpowiedź brzmi: Switch nie umie obsłużyć typu danych .... <po odpowiedź zjedź na dół :) >
-
-    PS: To jest ten wyjątek, który musisz zapamiętać.
-
-    a więc... wróćmy do zadania... "Kalkulator prosty - switch".
+    ==========================================================================================
+                 a więc... wróćmy do zadania... "Kalkulator prosty - switch".
+    ==========================================================================================
 
     1. Stwórz klasę kalkulator
     2. Stwórz metodę wybieranie()      <= patrz, o czym nam mówi ten fragment: wybieranie(), podpowiedź: dwie rzeczy!
@@ -35,8 +34,8 @@ using System.Threading.Tasks;
     pytać użytkownika w metodzie wybieranie() do obliczeń albo w ogóle w main? 
 
     6. Metody suma(), iloczyn(), roznica() mają działać na zasadzie, że użytkownik
-    może dokonać danego działania na ilu liczbach chce. A gdy wpisze "koniec" to 
-    wtedy kompilator zwróci wynik.
+    może dokonać danego działania na ilu liczbach chce. A gdy wpisze sie kombinacje
+    liczb: 097 to wtedy kompilator zwróci wynik.
 
     Mam dla Ciebie dobrą wiadomość, taką wskazówkę. Jeśli uda Ci się napisać jedną
     z tych metod, to pozostałe dwie będą polegały na tym samym tylko będzie
@@ -48,10 +47,10 @@ using System.Threading.Tasks;
 
     8. Jak wszystko działa, to bądź dumny/dumna i zerknij na drugą część.
 
-    
-    ****************
-    Część 2 zadania:
-    
+    =============================================
+                   Część 2 zadania:
+    =============================================
+
     chcesz, aby Twój program działał cały czas, to znaczy np. użytkownik
     policzy sobie sume, wypisze mu wynik i potem znowu sobie moze policzyć np. iloczyn
     to musimy skorzystać z pętli nieskończonej (czyli takiej która się nie skończy.. hehe).
@@ -71,6 +70,7 @@ using System.Threading.Tasks;
     while(0) - zwróci fałsz
     jeśli nie wierzysz, to przetestuj :) 
     
+    =======================================================================================================================================
     Zapamiętaj, poćwicz, przypomnij sobie poniższe fakty:
     - Co to takiego i jak tworzyć: klasę, metodę, obiekt, konstruktor?
     - Co to takiego i jak tworzyć: switch 
@@ -79,6 +79,7 @@ using System.Threading.Tasks;
     - Co to takiego i jak tworzyć: pętle?
     - Jak tworzyć np. sume od x elementów, gdzie x to liczba elementów jakie podał użytkownik?
     - Co zrobić, żeby program działał cały czas? To znaczy, nie wyłączał się po jednym wykonaniu?
+    =======================================================================================================================================
 */
 
 namespace kalka_switch
@@ -87,6 +88,18 @@ namespace kalka_switch
     {
         static void Main(string[] args)
         {
+
+            // przykład:
+            string tekst = "agk";
+
+            switch (tekst)
+            {
+                case "agk":
+                    Console.WriteLine("Siema");
+                    break;
+            }
+
+            Console.ReadLine();
         }
     }
 }
@@ -108,9 +121,3 @@ namespace kalka_switch
 
 
 
-
-
-
-
-
-// switch nie może operować na typie danych string!! Na innych może ;) 

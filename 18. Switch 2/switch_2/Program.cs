@@ -63,7 +63,7 @@ using System.Threading.Tasks;
     ==================================================
                     Utrwalisz sobie:
     ==================================================
-    - wszystko o instrukcji switch (jak działa, że od string nie możesz pisać switch, co to default, co to case itd...)
+    - wszystko o instrukcji switch
     - Co to takiego metoda, klasa, obiekt?
     - Co to takiego break?
     - Co to takiego metoda typu void?
